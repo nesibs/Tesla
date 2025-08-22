@@ -12,7 +12,7 @@ const Header = () => {
   const [energy, setEnergy] = useState([]);
   const [charging, setCharging] = useState([]);
   const [shop, setShop] = useState([]);
-const [isSignedIn, setIsSignedIn] = useState(false);
+  const [isSignedIn, setIsSignedIn] = useState(false);
   const [activeMenu, setActiveMenu] = useState(null);
 
   const navigate = useNavigate();
@@ -79,7 +79,12 @@ const [isSignedIn, setIsSignedIn] = useState(false);
                       {car.name === "Inventory" ? (
                         // Inventory üçün tək link
                         <div className="flex justify-center gap-2 text-xs text-blue-600 mt-1">
-                          <Link to="/inventory">View Inventory</Link>
+                          <Link
+                            className="border-b text-[#5c5e62] border-[#5c5e62]"
+                            to="/inventory"
+                          >
+                            View Inventory
+                          </Link>
                         </div>
                       ) : (
                         // Qalan maşınlar üçün Learn + Order
@@ -282,20 +287,33 @@ const [isSignedIn, setIsSignedIn] = useState(false);
                         className="w-full h-auto object-contain mx-auto"
                       />
                       <p className="mt-2 font-medium text-sm">{car.name}</p>
-                      <div className="flex justify-center gap-2 text-xs text-blue-600 mt-1">
-                        <Link
-                          className="border-b text-[#5c5e62] border-[#5c5e62]"
-                          to={`/details/${car.id}`}
-                        >
-                          Learn
-                        </Link>
-                        <Link
-                          className="border-b text-[#5c5e62] border-[#5c5e62]"
-                          to={`/order/${car.id}`}
-                        >
-                          Order
-                        </Link>
-                      </div>
+                      {car.name === "Inventory" ? (
+                        // Inventory üçün tək link
+                        <div className="flex justify-center gap-2 text-xs text-blue-600 mt-1">
+                          <Link
+                            className="border-b text-[#5c5e62] border-[#5c5e62]"
+                            to="/inventory"
+                          >
+                            View Inventory
+                          </Link>
+                        </div>
+                      ) : (
+                        // Qalan maşınlar üçün Learn + Order
+                        <div className="flex justify-center gap-2 text-xs text-blue-600 mt-1">
+                          <Link
+                            className="border-b text-[#5c5e62] border-[#5c5e62]"
+                            to={`/details/${car.id}`}
+                          >
+                            Learn
+                          </Link>
+                          <Link
+                            className="border-b text-[#5c5e62] border-[#5c5e62]"
+                            to={`/order/${car.id}`}
+                          >
+                            Order
+                          </Link>
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>

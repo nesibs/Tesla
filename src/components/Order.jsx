@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { getCarsById } from "../service/CarsServices";
 import { useSwipeable } from "react-swipeable";
 import { Globe } from "lucide-react";
@@ -170,9 +170,11 @@ const Order = () => {
   return (
     <div>
       <header className="container flex justify-between items-center h-[70px] shadow">
-        <div className="w-40">
-          <img className="w-full" src="/teslalogo.svg" alt="" />
-        </div>
+        <Link to="../">
+          <div className="w-40">
+            <img className="w-full" src="/teslalogo.svg" alt="" />
+          </div>
+        </Link>
         <div>
           <Globe className="w-5 h-5 cursor-pointer" />
         </div>
@@ -186,7 +188,7 @@ const Order = () => {
           <img
             src={carImages[selectedImageIndex]}
             alt="Car"
-            className={`w-full h-screen object-contain transition-opacity duration-500 ${
+            className={`w-full h-[400px] md:h-screen object-contain transition-opacity duration-500 ${
               fade ? "opacity-100" : "opacity-0"
             }`}
           />
@@ -453,14 +455,13 @@ const Order = () => {
                     onClick={handleOrderNow}
                   >
                     Order Now
-                  </button> 
-                 
+                  </button>
                 </div>
               )}
               {activeTab === "lease" && "finance" && (
                 <div>
                   <h3 className="text-xl font-semibold">
-                    {getVersionPrice() / 36}
+                   ${Math.round(Number(getVersionPrice().replace(/[^0-9.-]+/g, "")) / 36 / 1000) * 1000}
                   </h3>
                   <button
                     className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
@@ -474,7 +475,7 @@ const Order = () => {
           </div>
         </div>
       </div>
-       <ToastContainer /> 
+      <ToastContainer />
     </div>
   );
 };
