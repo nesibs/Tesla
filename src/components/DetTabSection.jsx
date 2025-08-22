@@ -28,11 +28,8 @@ const DetTabSection = () => {
               className="w-full h-auto object-contain sm:object-cover"
             />
           </div>
-
-          {/* Separator */}
-          <div className="w-full h-[2px] bg-white rounded-full" />
-
-          {/* Info Grid */}
+ 
+          <div className="w-full h-[2px] bg-white rounded-full" /> 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             {/* Active Car Info */}
             <div>

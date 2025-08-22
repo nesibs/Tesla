@@ -56,7 +56,10 @@ const ShopHeader = ({ id }) => {
       <div className="container flex justify-between items-center px-4">
         {/* Logo */}
         <div className="font-bold cursor-pointer flex justify-center items-center gap-2">
-          <img className="w-28" src="/teslalogo.svg" alt="Tesla Logo" />
+          <Link  to="../">
+            {" "}
+            <img className="w-40 h-40" src="/teslalogo.svg" alt="" />
+          </Link>
           <p className="hidden sm:block">| Shop</p>
         </div>
 

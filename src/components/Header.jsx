@@ -38,17 +38,20 @@ const Header = () => {
     <header className=" top-0 h-[70px] flex  items-center  w-full bg-white shadow z-50 relative">
       <div className=" flex justify-between items-center w-screen   px-4 py-3">
         <div className=" w-32 font-bold cursor-pointer">
-          <img src="/teslalogo.svg" alt="" />
+          <Link to="../"> 
+            {" "}
+            <img src="/teslalogo.svg" alt="" />
+          </Link>
         </div>
 
         {/* Desktop menu */}
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
+        <nav className="hidden md:flex items-center gap-8 text-sm font-semibold ">
           {/* Vehicles */}
           <div
             onMouseEnter={() => handleMouseEnter("vehicles")}
             onMouseLeave={handleMouseLeave}
           >
-            <button className="hover:text-gray-600">Vehicles</button>
+            <button className="hover:text-[#5c5e62] ">Vehicles</button>
             {activeMenu === "vehicles" && (
               <div className="absolute  left-0 top-11 w-full   bg-white shadow-lg p-6 flex justify-center items-center gap-12 z-40">
                 <div className="grid grid-cols-3 lg:grid-cols-4  gap-6 ">
@@ -108,7 +111,7 @@ const Header = () => {
             onMouseEnter={() => handleMouseEnter("energy")}
             onMouseLeave={handleMouseLeave}
           >
-            <button className="hover:text-gray-600">Energy</button>
+            <button className="hover:text-[#5c5e62]">Energy</button>
             {activeMenu === "energy" && (
               <div className="absolute  left-0 top-11 w-full   bg-white shadow-lg p-6 flex justify-center items-center gap-12 z-40">
                 <div className="grid grid-cols-3 lg:grid-cols-4 gap-6">
@@ -155,7 +158,7 @@ const Header = () => {
             onMouseEnter={() => handleMouseEnter("charging")}
             onMouseLeave={handleMouseLeave}
           >
-            <button className="hover:text-gray-600">Charging</button>
+            <button className="hover:text-[#5c5e62]">Charging</button>
             {activeMenu === "charging" && (
               <div className="absolute  left-0 top-11 w-full   bg-white shadow-lg p-6 flex justify-center items-center gap-12 z-40">
                 <div className="grid grid-cols-3 lg:grid-cols-4 gap-6">
@@ -196,12 +199,12 @@ const Header = () => {
               </div>
             )}
           </div>
-          <button className="hover:text-gray-600">Discover</button>
+          <button className="hover:text-[#5c5e62]">Discover</button>
           <div
             onMouseEnter={() => handleMouseEnter("shop")}
             onMouseLeave={handleMouseLeave}
           >
-            <button className="hover:text-gray-600">
+            <button className="hover:text-[#5c5e62]">
               <Link to="/shop">Shop</Link>
             </button>
             {activeMenu === "shop" && (
@@ -322,8 +325,10 @@ const Header = () => {
                 <span>United States</span>
               </div>
               <div className="flex items-center gap-2">
-                <User className="w-5 h-5" />
-                <span>Account</span>
+                <Link to="/signIn" className="flex items-center gap-2">
+                  <User className="w-5 h-5 cursor-pointer" />
+                  <span>Account</span>
+                </Link>
               </div>
             </div>
           </div>

@@ -964,7 +964,7 @@
             "categories":{
                "Best Seller":[
                   {
-                     "id":1, 
+                     "id":20, 
                      "name":"Model S All-Weather Floor Mats",
                      "price":200,
                      "currency":"USD",
@@ -973,7 +973,7 @@
                ],
                "interior":[
                   {
-                     "id":1,
+                     "id":21,
                      "category": "Interior",
                      "name":"Model S Interior LED Upgrade Kit",
                      "price":150,
@@ -983,7 +983,7 @@
                ],
                "exterior":[
                   {
-                     "id":1,
+                     "id":22,
                      "category": "Exterior",
                      "name":"Model S Aero Wheel Cap Kit",
                      "price":50,
@@ -993,7 +993,7 @@
                ],
                "parts":[
                   {
-                     "id":1,
+                     "id":22,
                      "category": "Parts",
                      "name":"Model S Brake Caliper Covers",
                      "price":300,
@@ -1003,7 +1003,7 @@
                ],
                "wheels":[
                   {
-                     "id":1,
+                     "id":22,
                      "category": "Wheels and Tires",
                      "name":"Model S 21” Arachnid Wheels",
                      "price":4500,
@@ -1019,7 +1019,7 @@
             "categories":{
                "Best Seller":[
                   {
-                     "id":1,
+                     "id":22,
                      "category": "Best Seller",
                      "name":"Model 3 Roof Rack",
                      "price":450,
@@ -1189,7 +1189,7 @@
          "men":[{
             "Hats":[
                {
-                  "id":1,
+                  "id":30,
                   "name":"Men’s Logo Cap",
                   "price":30,
                   "currency":"USD",
@@ -1198,7 +1198,7 @@
             ],
             "Tees":[
                {
-                  "id":1,
+                  "id":31,
                   "name":"Men’s Graphic Tee",
                   "price":35,
                   "currency":"USD",
@@ -1207,7 +1207,7 @@
             ],
             "Sweatshirts":[
                {
-                  "id":1,
+                  "id":32,
                   "name":"Men’s Pullover Hoodie",
                   "price":60,
                   "currency":"USD",
@@ -1218,7 +1218,7 @@
          "women":[{
             "hats":[
                {
-                  "id":1,
+                  "id":33,
                   "name":"Women’s Logo Cap",
                   "price":30,
                   "currency":"USD",
@@ -1227,7 +1227,7 @@
             ],
             "tees":[
                {
-                  "id":1,
+                  "id":34,
                   "name":"Women’s Graphic Tee",
                   "price":35,
                   "currency":"USD",
@@ -1236,7 +1236,7 @@
             ],
             "sweatshirts":[
                {
-                  "id":1,
+                  "id":35,
                   "name":"Women’s Pullover Hoodie",
                   "price":60,
                   "currency":"USD",
@@ -1247,7 +1247,7 @@
          "kids":{
             "hats":[
                {
-                  "id":1,
+                  "id":36,
                   "name":"Kids’ Logo Cap",
                   "price":20,
                   "currency":"USD",
@@ -1256,7 +1256,7 @@
             ],
             "tees":[
                {
-                  "id":1,
+                  "id":37,
                   "name":"Kids’ Graphic Tee",
                   "price":25,
                   "currency":"USD",
@@ -1265,7 +1265,7 @@
             ],
             "sweatshirts":[
                {
-                  "id":1,
+                  "id":38,
                   "name":"Kids’ Hoodie",
                   "price":40,
                   "currency":"USD",
@@ -1279,42 +1279,42 @@
       "charging":{
          "Chargers":[
             {
-               "id":1,
+               "id":40,
                "category": "Chargers",
                "name":"Wall Connector",
-               "price":"$475",
+               "price":475,
                "currency":"USD",
                "img1":"/shopPics/chargingChFront1.avif",
                "img2":"/shopPics/chargingChBack1.avif"
             },
              {
-               "id":2, 
+               "id":41, 
                "name":"Wall Connector",
-               "price":"$475",
+               "price":475,
                "currency":"USD",
                "img1":"/shopPics/chargingChFront1.avif",
                "img2":"/shopPics/chargingChBack1.avif"
             },
              {
-               "id":3, 
+               "id":42, 
                "name":"Wall Connector",
-               "price":"$475",
+               "price":475,
                "currency":"USD",
                "img1":"/shopPics/chargingChFront1.avif",
                "img2":"/shopPics/chargingChBack1.avif"
             },
              {
-               "id":4, 
+               "id":43, 
                "name":"Wall Connector",
-               "price":"$475",
+               "price":475,
                "currency":"USD",
                "img1":"/shopPics/chargingChFront1.avif",
                "img2":"/shopPics/chargingChBack1.avif"
             },
              {
-               "id":5, 
+               "id":44, 
                "name":"Wall Connector",
-               "price":"$475",
+               "price":475,
                "currency":"USD",
                "img1":"/shopPics/chargingChFront1.avif",
                "img2":"/shopPics/chargingChBack1.avif"
@@ -1322,34 +1322,34 @@
          ],
          "Adapters":[
             {
-               "id":1,
+               "id":45,
                "category": "Adapters",
                "name":"J1772 Charging Adapter",
-               "price":"$50",
+               "price":50,
                "currency":"USD",
                "img1":"/shopPics/chargingAdFront1.avif",
                "img2":"/shopPics/chargingAdBack1.avif"
             },
               {
-               "id":2, 
+               "id":46, 
                "name":"J1772 Charging Adapter",
-               "price":"$50",
+               "price":50,
                "currency":"USD",
                "img1":"/shopPics/chargingAdFront1.avif",
                "img2":"/shopPics/chargingAdBack1.avif"
             },
               {
-               "id":3, 
+               "id":47, 
                "name":"J1772 Charging Adapter",
-               "price":"$50",
+               "price":50,
                "currency":"USD",
                "img1":"/shopPics/chargingAdFront1.avif",
                "img2":"/shopPics/chargingAdBack1.avif"
             },
               {
-               "id":3, 
+               "id":48, 
                "name":"J1772 Charging Adapter",
-               "price":"$50",
+               "price":50,
                "currency":"USD",
                "img1":"/shopPics/chargingAdFront1.avif",
                "img2":"/shopPics/chargingAdBack1.avif"
@@ -1357,50 +1357,50 @@
          ],
          "Parts":[
             {
-               "id":1,
+               "id":49,
                "category": "Parts",
                "name":"Wall Connector Pedestal",
-               "price":"$425",
+               "price":425,
                "currency":"USD",
                "img1":"/shopPics/chargingPaFront1.avif",
                "img2":"/shopPics/chargingPaBack1.avif"
             },
              {
-               "id":2, 
+               "id":50, 
                "name":"Wall Connector Pedestal",
-               "price":"$425",
+               "price":425,
                "currency":"USD",
                "img1":"/shopPics/chargingPaFront1.avif",
                "img2":"/shopPics/chargingPaBack1.avif"
             },
              {
-               "id":3, 
+               "id":51, 
                "name":"Wall Connector Pedestal",
-               "price":"$425",
+               "price":425,
                "currency":"USD",
                "img1":"/shopPics/chargingPaFront1.avif",
                "img2":"/shopPics/chargingPaBack1.avif"
             },
              {
-               "id":4, 
+               "id":52, 
                "name":"Wall Connector Pedestal",
-               "price":"$425",
+               "price":425,
                "currency":"USD",
                "img1":"/shopPics/chargingPaFront1.avif",
                "img2":"/shopPics/chargingPaBack1.avif"
             },
              {
-               "id":5, 
+               "id":53, 
                "name":"Wall Connector Pedestal",
-               "price":"$425",
+               "price":425,
                "currency":"USD",
                "img1":"/shopPics/chargingPaFront1.avif",
                "img2":"/shopPics/chargingPaBack1.avif"
             },
              {
-               "id":6, 
+               "id":54, 
                "name":"Wall Connector Pedestal",
-               "price":"$425",
+               "price":425,
                "currency":"USD",
                "img1":"/shopPics/chargingPaFront1.avif",
                "img2":"/shopPics/chargingPaBack1.avif"
@@ -1412,42 +1412,42 @@
       "lifestyle":{
          "Best Seller":[
             {
-               "id":1,
+               "id":55,
                "category": "Best Seller",
                "name":"Tesla Thermal Mug",
-               "price":"$35",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBsFront1.avif",
                "img2":"/shopPics/lifestyleBsBack1.avif"
             },
              {
-               "id":2, 
+               "id":56, 
                "name":"Tesla Thermal Mug",
-               "price":"$35",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBsFront1.avif",
                "img2":"/shopPics/lifestyleBsBack1.avif"
             },
              {
-               "id":3, 
+               "id":57, 
                "name":"Tesla Thermal Mug",
-               "price":"$35",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBsFront1.avif",
                "img2":"/shopPics/lifestyleBsBack1.avif"
             },
              {
-               "id":4, 
+               "id":58, 
                "name":"Tesla Thermal Mug",
-               "price":"$35",
+              "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBsFront1.avif",
                "img2":"/shopPics/lifestyleBsBack1.avif"
             },
              {
-               "id":5, 
+               "id":59, 
                "name":"Tesla Thermal Mug",
-               "price":"$35",
+              "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBsFront1.avif",
                "img2":"/shopPics/lifestyleBsBack1.avif"
@@ -1455,49 +1455,49 @@
          ],
          "Drinkware":[
             {
-               "id":1,
+               "id":60,
                "category": "Drinkware",
                "name":"Insulated Water Bottle",
-               "price":"$35",
+              "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleDrFront1.avif",
                "img2":"/shopPics/lifestyleDrBack1.avif"
             },
             {
-               "id":2, 
+               "id":61, 
                "name":"Insulated Water Bottle",
-               "price":"$35",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleDrFront1.avif",
                "img2":"/shopPics/lifestyleDrBack1.avif"
             },
              {
-               "id":3, 
+               "id":62, 
                "name":"Insulated Water Bottle",
-               "price":"$35",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleDrFront1.avif",
                "img2":"/shopPics/lifestyleDrBack1.avif"
             },
              {
-               "id":4, 
+               "id":63, 
                "name":"Insulated Water Bottle",
-               "price":"$35",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleDrFront1.avif",
                "img2":"/shopPics/lifestyleDrBack1.avif"
             },
              {
-               "id":5, 
+               "id":64, 
                "name":"Insulated Water Bottle",
-               "price":"$35",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleDrFront1.avif",
                "img2":"/shopPics/lifestyleDrBack1.avif"
             }, {
-               "id":6, 
+               "id":65, 
                "name":"Insulated Water Bottle",
-               "price":"$35",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleDrFront1.avif",
                "img2":"/shopPics/lifestyleDrBack1.avif"
@@ -1506,50 +1506,50 @@
          ],
          "Bags":[
             {
-               "id":1,
+               "id":66,
                "category": "Bags",
                "name":"Tesla Backpack",
-               "price":"$80",
+              "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBaFront1.avif",
                "img2":"/shopPics/lifestyleBaBack1.avif"
             },
                 {
-               "id":2, 
+               "id":67, 
                "name":"Tesla Backpack",
-               "price":"$80",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBaFront1.avif",
                "img2":"/shopPics/lifestyleBaBack1.avif"
             },
                    {
-               "id":3, 
+               "id":68, 
                "name":"Tesla Backpack",
-               "price":"$80",
+              "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBaFront1.avif",
                "img2":"/shopPics/lifestyleBaBack1.avif"
             },
                    {
-               "id":4, 
+               "id":69, 
                "name":"Tesla Backpack",
-               "price":"$80",
+              "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBaFront1.avif",
                "img2":"/shopPics/lifestyleBaBack1.avif"
             },
                    {
-               "id":5, 
+               "id":70, 
                "name":"Tesla Backpack",
-               "price":"$80",
+              "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBaFront1.avif",
                "img2":"/shopPics/lifestyleBaBack1.avif"
             },
                    {
-               "id":6, 
+               "id":71, 
                "name":"Tesla Backpack",
-               "price":"$80",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleBaFront1.avif",
                "img2":"/shopPics/lifestyleBaBack1.avif"
@@ -1557,34 +1557,34 @@
          ],
          "Mini Teslas":[
             {
-               "id":1,
+               "id":73,
                "category": "Mini Teslas",
                "name":"Tesla Model S for Kids",
-               "price":"$600",
+              "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleMtFront1.avif",
                "img2":"/shopPics/lifestyleMtBack1.avif"
             },
             {
-               "id":1, 
+               "id":74, 
                "name":"Tesla Model S for Kids",
-               "price":"$600",
+              "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleMtFront1.avif",
                "img2":"/shopPics/lifestyleMtBack1.avif"
             },
              {
-               "id":1, 
+               "id":75, 
                "name":"Tesla Model S for Kids",
-               "price":"$600",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleMtFront1.avif",
                "img2":"/shopPics/lifestyleMtBack1.avif"
             },
              {
-               "id":1, 
+               "id":76, 
                "name":"Tesla Model S for Kids",
-               "price":"$600",
+               "price":35,
                "currency":"USD",
                "img1":"/shopPics/lifestyleMtFront1.avif",
                "img2":"/shopPics/lifestyleMtBack1.avif"

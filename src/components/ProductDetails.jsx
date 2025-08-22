@@ -138,10 +138,10 @@ It ensures durability, modern aesthetics, and ease of use. Perfect choice for ev
         </div>
 
         {/* Sağ product detalları */}
-        <div className=" w-ful md:w-[30%] flex flex-col gap-6">
+        <div className=" w-ful md:w-[30%] flex flex-col gap-6 text-center md:text-start">
           <div>
             <h1 className="text-3xl font-bold">{product.name}</h1>
-            <p className="text-xl font-semibold">{product.price}</p>
+            <p className="text-xl font-semibold">${product.price}</p>
           </div>
 
           <button

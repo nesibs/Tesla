@@ -24,10 +24,10 @@ const Details = () => {
     <>
       <Header />
       <div
-        className="relative w-full h-[90vh] bg-cover bg-center flex flex-col  lg:py-12 md:py-10 sm:py-7 items-center text-white  "
+        className=" w-full h-[90vh] bg-cover bg-center flex flex-col  lg:py-12 md:py-10 sm:py-7 items-center text-white  "
         style={{ backgroundImage: `url(${cars.image.detImg})` }}
       >
-        <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold">
+        <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold mt-12 sm:mt-8 lg:mt-5">
           {cars.name}
         </h1>
         <p className="text-[15px] md:text-1xl lg:text-2xl font-semibold">
@@ -37,41 +37,41 @@ const Details = () => {
           Grok AI now available. <span>Learn More</span>
         </p>
         <div className="flex justify-center items-center font-semibold gap-3">
-          <Link className="bg-[#3e6ae1] text-[13px]  px-16 py-2  hover:bg-[#3457b1] transition rounded-[5px]">
+          <Link to={`/order/${cars.id}`} className="bg-blue-600 text-[13px] w-[120px] sm:w-[150px]  lg:w-[200px] py-3 rounded text-white font-bold hover:bg-blue-700 transition text-center">
             Order Now
           </Link>
-          <Link className="bg-[#fff] text-[13px] text-[#393c41]  px-16 py-2  hover:bg-[#e9e9e9] transition rounded-[5px]">
+          <Link className="bg-[#fff] text-[13px] text-[#393c41]   w-[120px] sm:w-[150px]  lg:w-[200px] py-3  hover:bg-[#e9e9e9] transition rounded text-center">
             Demo Drive
           </Link>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-10 py-32 font-semibold flex-col md:flex-row">
-        <div className="not-md:border-b-1  md:border-r-1 px-10">
-          <p className="text-2xl md:text-4xl lg:text-6xl  ">
-            {" "}
+      <div className="flex flex-col md:flex-row justify-center items-center py-32 font-semibold text-center">
+        <div className="flex-1 border-b md:border-b-0 md:border-r px-10 py-6">
+          <p className="text-2xl md:text-4xl lg:text-6xl">
             {cars.range}
             <span className="text-[20px] md:text-2xl lg:text-3xl">mi</span>
           </p>
-          <p className="text-[15px] md:text-1xl lg:text-2xl text-[#393c41]">
+          <p className="text-[15px] md:text-xl lg:text-2xl text-[#393c41]">
             Range (EPA est.)
           </p>
         </div>
-        <div className="not-md:border-b-1 md:border-r-1 px-10">
-          <p className="text-2xl md:text-4xl lg:text-6xl  ">
+
+        <div className="flex-1 border-b md:border-b-0 md:border-r px-10 py-6">
+          <p className="text-2xl md:text-4xl lg:text-6xl">
             {cars.mph}
             <span className="text-[20px] md:text-2xl lg:text-3xl">s</span>
           </p>
-          <p className="text-[15px] md:text-1xl lg:text-2xl text-[#393c41]">
-            {" "}
+          <p className="text-[15px] md:text-xl lg:text-2xl text-[#393c41]">
             0-60 mph<sup>2</sup>
           </p>
         </div>
-        <div className=" ">
-          <p className="text-2xl md:text-4xl lg:text-6xl  ">
+
+        <div className="flex-1 px-10 py-6">
+          <p className="text-2xl md:text-4xl lg:text-6xl">
             {cars.peakPower}
             <span className="text-[20px] md:text-2xl lg:text-3xl">hp</span>
           </p>
-          <p className="text-[15px] md:text-1xl lg:text-2xl  text-[#393c41]">
+          <p className="text-[15px] md:text-xl lg:text-2xl text-[#393c41]">
             Peak Power
           </p>
         </div>
