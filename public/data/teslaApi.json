@@ -769,7 +769,7 @@
          {
             "image":"/headerPics/shopMenu2.avif",
             "title":"Apparel",
-            "key": "apparel "
+            "key": "apparel"
          },
          {
             "image":"/headerPics/shopMenu3.avif",
@@ -1186,14 +1186,55 @@
    },
    {
       "apparel":{
-         "men":[{
+         "Men":[{
             "Hats":[
                {
                   "id":30,
                   "name":"Men’s Logo Cap",
                   "price":30,
                   "currency":"USD",
-                  "img":"/shopPics/men_hat.jpg"
+                  "img1":"/shopPics/menHtFront1.avif",
+                  "img2":"/shopPics/menHtBack1.avif"
+               },
+               {
+                  "id":30,
+                  "name":"Men’s Logo Cap",
+                  "price":30,
+                  "currency":"USD",
+                  "img1":"/shopPics/menHtFront1.avif",
+                  "img2":"/shopPics/menHtBack1.avif"
+               },
+               {
+                  "id":30,
+                  "name":"Men’s Logo Cap",
+                  "price":30,
+                  "currency":"USD",
+                  "img1":"/shopPics/menHtFront1.avif",
+                  "img2":"/shopPics/menHtBack1.avif"
+               },
+               {
+                  "id":30,
+                  "name":"Men’s Logo Cap",
+                  "price":30,
+                  "currency":"USD",
+                  "img1":"/shopPics/menHtFront1.avif",
+                  "img2":"/shopPics/menHtBack1.avif"
+               },
+               {
+                  "id":30,
+                  "name":"Men’s Logo Cap",
+                  "price":30,
+                  "currency":"USD",
+                  "img1":"/shopPics/menHtFront1.avif",
+                  "img2":"/shopPics/menHtBack1.avif"
+               },
+               {
+                  "id":30,
+                  "name":"Men’s Logo Cap",
+                  "price":30,
+                  "currency":"USD",
+                  "img1":"/shopPics/menHtFront1.avif",
+                  "img2":"/shopPics/menHtBack1.avif"
                }
             ],
             "Tees":[
@@ -1202,7 +1243,43 @@
                   "name":"Men’s Graphic Tee",
                   "price":35,
                   "currency":"USD",
-                  "img":"/shopPics/men_tee.jpg"
+                   "img1":"/shopPics/menFront1.avif",
+                  "img2":"/shopPics/menBack1.avif"
+               }, {
+                  "id":31,
+                  "name":"Men’s Graphic Tee",
+                  "price":35,
+                  "currency":"USD",
+                   "img1":"/shopPics/menFront1.avif",
+                  "img2":"/shopPics/menBack1.avif"
+               }, {
+                  "id":31,
+                  "name":"Men’s Graphic Tee",
+                  "price":35,
+                  "currency":"USD",
+                   "img1":"/shopPics/menFront1.avif",
+                  "img2":"/shopPics/menBack1.avif"
+               }, {
+                  "id":31,
+                  "name":"Men’s Graphic Tee",
+                  "price":35,
+                  "currency":"USD",
+                   "img1":"/shopPics/menFront1.avif",
+                  "img2":"/shopPics/menBack1.avif"
+               }, {
+                  "id":31,
+                  "name":"Men’s Graphic Tee",
+                  "price":35,
+                  "currency":"USD",
+                   "img1":"/shopPics/menFront1.avif",
+                  "img2":"/shopPics/menBack1.avif"
+               }, {
+                  "id":31,
+                  "name":"Men’s Graphic Tee",
+                  "price":35,
+                  "currency":"USD",
+                   "img1":"/shopPics/menFront1.avif",
+                  "img2":"/shopPics/menBack1.avif"
                }
             ],
             "Sweatshirts":[
@@ -1211,21 +1288,131 @@
                   "name":"Men’s Pullover Hoodie",
                   "price":60,
                   "currency":"USD",
-                  "img":"/shopPics/men_sweatshirt.jpg"
+                   "img1":"/shopPics/menSwFront1.avif",
+                  "img2":"/shopPics/menSwBack1.avif"
+               }, {
+                  "id":32,
+                  "name":"Men’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                   "img1":"/shopPics/menSwFront1.avif",
+                  "img2":"/shopPics/menSwBack1.avif"
+               }, {
+                  "id":32,
+                  "name":"Men’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                   "img1":"/shopPics/menSwFront1.avif",
+                  "img2":"/shopPics/menSwBack1.avif"
+               }, {
+                  "id":32,
+                  "name":"Men’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                   "img1":"/shopPics/menSwFront1.avif",
+                  "img2":"/shopPics/menSwBack1.avif"
+               }, {
+                  "id":32,
+                  "name":"Men’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                   "img1":"/shopPics/menSwFront1.avif",
+                  "img2":"/shopPics/menSwBack1.avif"
+               }, {
+                  "id":32,
+                  "name":"Men’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                   "img1":"/shopPics/menSwFront1.avif",
+                  "img2":"/shopPics/menSwBack1.avif"
                }
             ]
          }],
-         "women":[{
-            "hats":[
+         "Women":[{
+           "Sweatshirts":[
+               {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }, {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }, {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }, {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }, {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }, {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }, {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }, {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }, {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }, {
+                  "id":35,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                    "img1":"/shopPics/womenFront1.avif",
+                  "img2":"/shopPics/womenBack1.avif"
+               }
+            ],
+            "Hats":[
                {
                   "id":33,
                   "name":"Women’s Logo Cap",
                   "price":30,
                   "currency":"USD",
-                  "img":"/shopPics/women_hat.jpg"
+                     "img1":"/shopPics/menHtFront1.avif",
+                  "img2":"/shopPics/menHtBack1.avif"
                }
             ],
-            "tees":[
+            "Tees":[
                {
                   "id":34,
                   "name":"Women’s Graphic Tee",
@@ -1233,19 +1420,11 @@
                   "currency":"USD",
                   "img":"/shopPics/women_tee.jpg"
                }
-            ],
-            "sweatshirts":[
-               {
-                  "id":35,
-                  "name":"Women’s Pullover Hoodie",
-                  "price":60,
-                  "currency":"USD",
-                  "img":"/shopPics/women_sweatshirt.jpg"
-               }
             ]
+           
          }],
-         "kids":{
-            "hats":[
+         "Kids":{
+            "Hats":[
                {
                   "id":36,
                   "name":"Kids’ Logo Cap",
@@ -1254,7 +1433,7 @@
                   "img":"/shopPics/kids_hat.jpg"
                }
             ],
-            "tees":[
+            "Tees":[
                {
                   "id":37,
                   "name":"Kids’ Graphic Tee",
@@ -1263,7 +1442,7 @@
                   "img":"/shopPics/kids_tee.jpg"
                }
             ],
-            "sweatshirts":[
+            "Sweatshirts":[
                {
                   "id":38,
                   "name":"Kids’ Hoodie",
@@ -1642,7 +1821,7 @@
     {
       "id": "cybertruck",
       "name": "Cybertruck", 
-      "best_seller": [
+      "best_seller": 
           {
           "id": 1,
           "name": "Cybertruck Crossbars",
@@ -1654,116 +1833,9 @@
           "image1": "/shopPics/cyberBsFront1.avif",
           "image2": "/shopPics/cyberBsBack1.avif" ,
           "inStock": true
-        },
-            {
-          "id": 2,
-          "name": "Cybertruck Crossbars",
-          "category": "best_seller",
-          "description": "Warm and stylish Cybertruck-themed hoodie.",
-          "price": "$800",
-          "currency": "USD",
-          "img": "/shopPics/cybertruckShop.avif",
-           "image1": "/shopPics/cyberBsFront1.avif",
-          "image2": "/shopPics/cyberBsBack1.avif" ,
-          "inStock": true
-        },
-            {
-          "id": 3,
-          "name": "Cybertruck Crossbars",
-          "category": "best_seller",
-          "description": "Warm and stylish Cybertruck-themed hoodie.",
-          "price": "$800",
-          "currency": "USD",
-          "img": "/shopPics/cybertruckShop.avif",
-        "image1": "/shopPics/cyberBsFront1.avif",
-          "image2": "/shopPics/cyberBsBack1.avif" ,
-          "inStock": true
-        },
-            {
-          "id": 4,
-          "name": "Cybertruck Crossbars",
-          "category": "best_seller",
-          "description": "Warm and stylish Cybertruck-themed hoodie.",
-          "price": "$800",
-          "currency": "USD",
-          "img": "/shopPics/cybertruckShop.avif",
-          "image1": "/shopPics/cyberBsFront1.avif",
-          "image2": "/shopPics/cyberBsBack1.avif" ,
-          "inStock": true
-        },
-            {
-          "id": 5,
-          "name": "Cybertruck Crossbars",
-          "category": "best_seller",
-          "description": "Warm and stylish Cybertruck-themed hoodie.",
-          "price": "$800",
-          "currency": "USD",
-          "img": "/shopPics/cybertruckShop.avif",
-        "image1": "/shopPics/cyberBsFront1.avif",
-          "image2": "/shopPics/cyberBsBack1.avif" ,
-          "inStock": true
-        },
-            {
-          "id": 6,
-          "name": "Cybertruck Crossbars",
-          "category": "best_seller",
-          "description": "Warm and stylish Cybertruck-themed hoodie.",
-          "price": "$800",
-          "currency": "USD",
-          "img": "/shopPics/cybertruckShop.avif",
-          "image1": "/shopPics/cyberBsFront1.avif",
-          "image2": "/shopPics/cyberBsBack1.avif" ,
-          "inStock": true
-        },
-            {
-          "id": 7,
-          "name": "Cybertruck Crossbars",
-          "category": "best_seller",
-          "description": "Warm and stylish Cybertruck-themed hoodie.",
-          "price": "$800",
-          "currency": "USD",
-          "img": "/shopPics/cybertruckShop.avif",
-         "image1": "/shopPics/cyberBsFront1.avif",
-          "image2": "/shopPics/cyberBsBack1.avif" ,
-          "inStock": true
-        },
-            {
-          "id": 8,
-          "name": "Cybertruck Crossbars",
-          "category": "best_seller",
-          "description": "Warm and stylish Cybertruck-themed hoodie.",
-          "price": "$800",
-          "currency": "USD",
-          "img": "/shopPics/cybertruckShop.avif",
-         "image1": "/shopPics/cyberBsFront1.avif",
-          "image2": "/shopPics/cyberBsBack1.avif" ,
-          "inStock": true
-        },
-            {
-          "id": 9,
-          "name": "Cybertruck Crossbars",
-          "category": "best_seller",
-          "description": "Warm and stylish Cybertruck-themed hoodie.",
-          "price": "$800",
-          "currency": "USD",
-          "img": "/shopPics/cybertruckShop.avif",
-          "image1": "/shopPics/cyberBsFront1.avif",
-          "image2": "/shopPics/cyberBsBack1.avif" ,
-          "inStock": true
-        },
-            {
-          "id": 10,
-          "name": "Cybertruck Crossbars",
-          "category": "best_seller",
-          "description": "Warm and stylish Cybertruck-themed hoodie.",
-          "price": "$800",
-          "currency": "USD",
-          "img": "/shopPics/cybertruckShop.avif",
-          "image1": "/shopPics/cyberBsFront1.avif",
-          "image2": "/shopPics/cyberBsBack1.avif" ,
-          "inStock": true
         }
-      ],
+            
+      ,
       "interior": [
           {
             "id": 1,

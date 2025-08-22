@@ -88,7 +88,6 @@ const ShopHeader = ({ id }) => {
               value={searchValue}
               onChange={(e) => {
                 setSearchValue(e.target.value);
-                onSearch(e.target.value); // parent-ə göndəririk
               }}
               placeholder="Search products..."
               className="absolute top-10 right-10 border rounded p-1 text-sm w-40"
@@ -102,9 +101,7 @@ const ShopHeader = ({ id }) => {
               </span>
             )}
           </Link>
-
-          {/* Desktop menu text */}
-          <p className="hidden md:block text-[13px] font-semibold">Menu</p>
+ 
 
           {/* Mobile hamburger */}
           <button

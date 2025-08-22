@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { getCarsById } from "../service/CarsServices";
 import { useSwipeable } from "react-swipeable";
 import { Globe } from "lucide-react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Order = () => {
   const { id } = useParams();
@@ -14,9 +16,42 @@ const Order = () => {
   const [includeSavings, setIncludeSavings] = useState(true);
 
   const [fade, setFade] = useState(true);
+  const navigate = useNavigate();
+
+  // Order Now düyməsi üçün funksiya
+  const handleOrderNow = () => {
+    const order = {
+      id: `${car.id}-${selectedVersion}-${selectedColor}-${Date.now()}`,
+      carId: car.id,
+      name: car.name,
+      version: selectedVersion,
+      color: selectedColor,
+      price: getVersionPrice(),
+      image: getCurrentImages()[0],
+      date: new Date().toISOString(),
+    };
+    const existingOrders = JSON.parse(localStorage.getItem("orders")) || [];
+    localStorage.setItem("orders", JSON.stringify([...existingOrders, order]));
+
+    // Toast notification
+    toast.success("Order placed successfully!", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+
+    // Navigate after a short delay (optional)
+    setTimeout(() => {
+      navigate("/profilePage");
+    }, 1500);
+  };
 
   useEffect(() => {
-    setFade(false); // Fade-i söndür
+    setFade(false);
     const timeout = setTimeout(() => setFade(true), 50); // Yenidən yandır
     return () => clearTimeout(timeout);
   }, [selectedImageIndex]);
@@ -136,9 +171,11 @@ const Order = () => {
     <div>
       <header className="container flex justify-between items-center h-[70px] shadow">
         <div className="w-40">
-          <img className="w-full" src="/teslalogo.svg"  alt="" />
+          <img className="w-full" src="/teslalogo.svg" alt="" />
         </div>
-        <div><Globe className="w-5 h-5 cursor-pointer" /></div>
+        <div>
+          <Globe className="w-5 h-5 cursor-pointer" />
+        </div>
       </header>
       <div className="flex flex-col lg:flex-row  gap-8">
         {/* LEFT SIDE - Carousel */}
@@ -411,9 +448,13 @@ const Order = () => {
               {activeTab === "cash" && (
                 <div>
                   <h3 className="text-xl font-semibold">{getVersionPrice()}</h3>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                  <button
+                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+                    onClick={handleOrderNow}
+                  >
                     Order Now
-                  </button>
+                  </button> 
+                 
                 </div>
               )}
               {activeTab === "lease" && "finance" && (
@@ -421,7 +462,10 @@ const Order = () => {
                   <h3 className="text-xl font-semibold">
                     {getVersionPrice() / 36}
                   </h3>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                  <button
+                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+                    onClick={handleOrderNow}
+                  >
                     Order Now
                   </button>
                 </div>
@@ -430,6 +474,7 @@ const Order = () => {
           </div>
         </div>
       </div>
+       <ToastContainer /> 
     </div>
   );
 };

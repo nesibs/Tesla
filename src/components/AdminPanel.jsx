@@ -1,11 +1,14 @@
 // components/AdminPanel.jsx
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
 
 export default function AdminPanel() {
   const [passwordInput, setPasswordInput] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [cars, setCars] = useState([]);
   const [editingCar, setEditingCar] = useState(null);
+  const navigate = useNavigate();
   const [newCar, setNewCar] = useState({
     model: "",
     title: "",
@@ -46,7 +49,20 @@ export default function AdminPanel() {
     if (passwordInput === adminPassword) {
       setIsAuthenticated(true);
     } else {
-      alert("Parol səhvdir!");
+      // Toast notification
+          toast.error("Password Invalid!", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+      
+          // Navigate after a short delay (optional)
+          setTimeout(() => { 
+          }, 1500);
     }
   };
 
@@ -209,6 +225,7 @@ export default function AdminPanel() {
                   Sil
                 </button>
               </td>
+               <ToastContainer /> 
             </tr>
           ))}
         </tbody>

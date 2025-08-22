@@ -13,6 +13,8 @@ import Cart from "./components/Cart.jsx";
 import ProductDetails from "./components/ProductDetails.jsx";
 import Inventory from "./components/Inventory.jsx";
 import AdminPanel from "./components/AdminPanel"; 
+import ProfilePage from "./components/ProfilePage.jsx";
+
  
 
 const router = createBrowserRouter([
@@ -67,6 +69,10 @@ const router = createBrowserRouter([
   {
     path: "/app",
     element: <App/>,
+  },
+  {
+    path: "/profilePage",
+    element: <ProfilePage />,
   },
 ]);
 createRoot(document.getElementById("root")).render(

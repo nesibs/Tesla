@@ -2,6 +2,7 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getShopData } from "../service/CarsServices";
 import ShopHeader from "./ShopHeader";
+import { toast, ToastContainer } from "react-toastify";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -66,7 +67,7 @@ const ProductDetails = () => {
 
   const handleButtonClick = () => {
     if (!isSignedIn) {
-      navigate("/signin"); // sign in səhifəsinə yönləndir
+      navigate("/signin");  
       return;
     }
 
@@ -81,8 +82,20 @@ const ProductDetails = () => {
       cart.push({ id: product.id, quantity: 1 });
     }
 
-    localStorage.setItem("cart", JSON.stringify(cart));
-    alert("Məhsul səbətə əlavə olundu ✅");
+    localStorage.setItem("cart", JSON.stringify(cart)); 
+
+         toast.success("Successfully added to cart!", {
+           position: "top-right",
+           autoClose: 3000,
+           hideProgressBar: false,
+           closeOnClick: true,
+           pauseOnHover: true,
+           draggable: true,
+           progress: undefined,
+         });
+      
+         setTimeout(() => { 
+         }, 1500);
   };
 
   if (loading) return <p>Yüklənir...</p>;
@@ -176,6 +189,7 @@ It ensures durability, modern aesthetics, and ease of use. Perfect choice for ev
               ))}
             </ul>
           </div>
+          <ToastContainer /> 
         </div>
       </main>
        <footer className="w-full py-12">

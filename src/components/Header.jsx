@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Globe, User } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Shop from "./Shop";
 import ShopProduct from "./ShopProduct";
 
@@ -12,8 +12,20 @@ const Header = () => {
   const [energy, setEnergy] = useState([]);
   const [charging, setCharging] = useState([]);
   const [shop, setShop] = useState([]);
-
+const [isSignedIn, setIsSignedIn] = useState(false);
   const [activeMenu, setActiveMenu] = useState(null);
+
+  const navigate = useNavigate();
+
+  const handleAccountClick = () => {
+    const user = JSON.parse(localStorage.getItem("user"));
+    setIsSignedIn(!!user);
+    if (isSignedIn) {
+      navigate("/profilePage");
+    } else {
+      navigate("/signIn");
+    }
+  };
 
   useEffect(() => {
     fetch("/data/teslaApi.json")
@@ -38,7 +50,7 @@ const Header = () => {
     <header className=" top-0 h-[70px] flex  items-center  w-full bg-white shadow z-50 relative">
       <div className=" flex justify-between items-center w-screen   px-4 py-3">
         <div className=" w-32 font-bold cursor-pointer">
-          <Link to="../"> 
+          <Link to="../">
             {" "}
             <img src="/teslalogo.svg" alt="" />
           </Link>
@@ -232,9 +244,9 @@ const Header = () => {
         {/* Icons */}
         <div className="hidden md:flex gap-4">
           <Globe className="w-5 h-5 cursor-pointer" />
-          <Link to="/signIn">
+          <button onClick={handleAccountClick}>
             <User className="w-5 h-5 cursor-pointer" />
-          </Link>
+          </button>
         </div>
 
         {/* Mobile menu toggle */}
@@ -324,12 +336,13 @@ const Header = () => {
                 <Globe className="w-5 h-5" />
                 <span>United States</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Link to="/signIn" className="flex items-center gap-2">
-                  <User className="w-5 h-5 cursor-pointer" />
-                  <span>Account</span>
-                </Link>
-              </div>
+              <button
+                onClick={handleAccountClick}
+                className="flex items-center gap-2 text-left"
+              >
+                <User className="w-5 h-5 cursor-pointer" />
+                <span>Account</span>
+              </button>
             </div>
           </div>
         </div>
