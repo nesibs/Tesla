@@ -7,6 +7,7 @@ import ShopProduct from "./ShopProduct";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mobileVehicleOpen, setMobileVehicleOpen] = useState(false);
+  const [mobileShopOpen, setMobileShopOpen] = useState(false);
   const [vehicles, setVehicles] = useState([]);
   const [energy, setEnergy] = useState([]);
   const [charging, setCharging] = useState([]);
@@ -68,8 +69,18 @@ const Header = () => {
                       ) : (
                         // Qalan maşınlar üçün Learn + Order
                         <div className="flex justify-center gap-2 text-xs text-blue-600 mt-1">
-                          <Link to={`/details/${car.id}`}>Learn</Link>
-                          <Link to={`/order/${car.id}`}>Order</Link>
+                          <Link
+                            className="border-b text-[#5c5e62] border-[#5c5e62]"
+                            to={`/details/${car.id}`}
+                          >
+                            Learn
+                          </Link>
+                          <Link
+                            className="border-b text-[#5c5e62] border-[#5c5e62]"
+                            to={`/order/${car.id}`}
+                          >
+                            Order
+                          </Link>
                         </div>
                       )}
                     </div>
@@ -93,7 +104,7 @@ const Header = () => {
           </div>
 
           {/* Energy */}
-          <div 
+          <div
             onMouseEnter={() => handleMouseEnter("energy")}
             onMouseLeave={handleMouseLeave}
           >
@@ -110,8 +121,18 @@ const Header = () => {
                       />
                       <p className="mt-2 font-semibold">{e.title}</p>
                       <div className="flex justify-center gap-2 text-xs text-blue-600 mt-1">
-                        <Link to={`/details/${e.id}`}>Learn</Link>
-                        <Link>Order</Link>
+                        <Link
+                          className="border-b text-[#5c5e62] border-[#5c5e62]"
+                          to={`/details/${e.id}`}
+                        >
+                          Learn
+                        </Link>
+                        <Link
+                          className="border-b text-[#5c5e62] border-[#5c5e62]"
+                          to={`/order/${e.id}`}
+                        >
+                          Order
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -130,7 +151,7 @@ const Header = () => {
           </div>
 
           {/* Digər düymələr */}
-          <div 
+          <div
             onMouseEnter={() => handleMouseEnter("charging")}
             onMouseLeave={handleMouseLeave}
           >
@@ -147,8 +168,18 @@ const Header = () => {
                       />
                       <p className="mt-2 font-semibold">{e.title}</p>
                       <div className="flex justify-center gap-2 text-xs text-blue-600 mt-1">
-                        <Link to={`/details/${e.id}`}>Learn</Link>
-                        <Link>Order</Link>
+                        <Link
+                          className="border-b text-[#5c5e62] border-[#5c5e62]"
+                          to={`/details/${e.id}`}
+                        >
+                          Learn
+                        </Link>
+                        <Link
+                          className="border-b text-[#5c5e62] border-[#5c5e62]"
+                          to={`/order/${e.id}`}
+                        >
+                          Order
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -166,7 +197,7 @@ const Header = () => {
             )}
           </div>
           <button className="hover:text-gray-600">Discover</button>
-          <div 
+          <div
             onMouseEnter={() => handleMouseEnter("shop")}
             onMouseLeave={handleMouseLeave}
           >
@@ -237,8 +268,18 @@ const Header = () => {
                       />
                       <p className="mt-2 font-medium text-sm">{car.name}</p>
                       <div className="flex justify-center gap-2 text-xs text-blue-600 mt-1">
-                        <a href="#">Learn</a>
-                        <a href="#">Order</a>
+                        <Link
+                          className="border-b text-[#5c5e62] border-[#5c5e62]"
+                          to={`/details/${car.id}`}
+                        >
+                          Learn
+                        </Link>
+                        <Link
+                          className="border-b text-[#5c5e62] border-[#5c5e62]"
+                          to={`/order/${car.id}`}
+                        >
+                          Order
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -249,7 +290,30 @@ const Header = () => {
             <button>Energy</button>
             <button>Charging</button>
             <button>Discover</button>
-            <button>Shop</button>
+
+            <button onClick={() => setMobileShopOpen(!mobileShopOpen)}>
+              Shop
+            </button>
+
+            {mobileShopOpen && (
+              <div className="mt-4 space-y-4">
+                <div className="grid grid-cols-2 gap-4">
+                  {shop[0].header.map((e, i) => (
+                    <div key={i} className="text-center">
+                      <Link to={`/shop/${e.key}`}>
+                        {" "}
+                        <img
+                          src={e.image}
+                          alt={e.title}
+                          className="w-full h-auto object-contain mx-auto"
+                        />
+                        <p className="mt-2 font-semibold text-sm">{e.title}</p>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
             <button>Support</button>
 
             <div className="mt-8 flex flex-col gap-4">
