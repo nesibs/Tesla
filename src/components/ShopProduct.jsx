@@ -29,6 +29,9 @@ const ShopProduct = () => {
       </div>
     );
   }
+  
+  console.log(setSelectedCategory);
+  
 
   if (!shop || !shop[0] || !shop[0].header) {
     return <div>Məlumat tapılmadı</div>;
@@ -50,7 +53,7 @@ const ShopProduct = () => {
             <div className="relative w-full h-full">
               <Link to={item.id ? `/productDetails/${item.id}` : '#'}>
                 <img
-                 src={item.img1 || item.img} // apparel üçün img, digərləri img1
+                 src={item.img1 || item.img}  
                   alt={item.name}
                   className="absolute w-full h-full object-cover transition-opacity duration-300"
                 />
@@ -96,7 +99,7 @@ const ShopProduct = () => {
                   <div key={group}>
                     <h2 className="font-semibold text-3xl px-10 py-8 text-center md:text-start">{group}</h2>
                     {Array.isArray(groupData)
-                      ? groupData.map((categoryObj, i) =>
+                      ? groupData.map((categoryObj) =>
                           Object.entries(categoryObj).map(([catName, items]) => (
                             <div key={catName}>
                               <h3 className="font-semibold text-2xl px-10 pb-3 text-center md:text-start">{catName}</h3>

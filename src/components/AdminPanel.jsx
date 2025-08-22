@@ -1,14 +1,12 @@
 // components/AdminPanel.jsx
-import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react"; 
 import { toast, ToastContainer } from "react-toastify";
 
 export default function AdminPanel() {
   const [passwordInput, setPasswordInput] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [cars, setCars] = useState([]);
-  const [editingCar, setEditingCar] = useState(null);
-  const navigate = useNavigate();
+  const [editingCar, setEditingCar] = useState(null); 
   const [newCar, setNewCar] = useState({
     model: "",
     title: "",

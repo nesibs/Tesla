@@ -401,7 +401,7 @@
         "menuImg": "/cybertruckMenu.avif",
         "mainImg": "/modelS_longrange.avif",
         "detImg": "/cybertruckabout1.avif",
-        "aboutImg1": "/aboutCyubertruck.avif"
+        "aboutImg1": "/cybertruckMenu.avif"
       },
       "detCardTravel": {
           "title":"The Future of Travel Is Autonomous",
