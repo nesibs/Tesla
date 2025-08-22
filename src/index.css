@@ -1,0 +1,61 @@
+ @import "tailwindcss";
+ *{ 
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+
+ .mySwiper {
+     width: 95%; 
+ }
+.mySwiper .swiper-slide-active {
+  transform: scale(1.05); 
+}
+.mySwiper .swiper-slide {
+  opacity: 0.7;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  width: 68%; 
+  margin: auto;
+}
+.mySwiper .swiper-slide-active {
+  opacity: 1;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+ 
+.container {
+    max-width: 1860px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+ 
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+ 
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        max-width: 600px;
+        padding: 0 15px;
+    }
+}
+ 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+        padding: 0 20px;
+    }
+}
+ 
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .container {
+        max-width: 1400px;
+        padding: 0 24px;
+    }
+}

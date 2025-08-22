@@ -1,0 +1,2575 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Model S ",
+      "price": "79,990 $",
+      "description": "Tesla Model S AWD Long Range delivers ~410 mi range, 670 hp and 0‑60 mph in ~3.1 s.",
+      "mph": "3.1",
+      "range": "410",
+      "peakPower": "670",
+
+      "image": {
+        "menuImg": "/modelSMenu.avif",
+        "mainImg": "/modelS_longrange.avif",
+        "detImg": "/modelSDet.avif",
+        "tabImg": "/ModelSTabs.avif",
+        "aboutImg1": "/aboutModelS1.avif",
+        "banImg": "/orderPics/modelSBan.avif"
+      },
+      "orderPage": {
+          "carImg": {
+            "grey": [  "/orderPics/modelSOrder1.jpg",  "/orderPics/modelSOrder2.jpg", "/orderPics/modelSOrder7.jpg"],
+            "red": [  "/orderPics/modelSOrder3.jpg",  "/orderPics/modelSOrder4.jpg", "/orderPics/modelSOrder7.jpg"],
+            "blue": [  "/orderPics/modelSOrder5.jpg",  "/orderPics/modelSOrder6.jpg", "/orderPics/modelSOrder7.jpg"]
+          },
+          "ballImg": [
+            {
+              "title": " Stealth Grey",
+              "increase": "0",
+              "image": "/orderPics/greyBall.avif"
+            },
+             {
+              "title": " Frost Blue Metallic",
+              "increase": "2500$",
+              "image": "/orderPics/blueBall.avif"
+            },
+             {
+              "title": "Ultra Red",
+              "increase": "2200$",
+              "image": "/orderPics/redBall.avif"
+            },
+             {
+              "title": "Black Diamond",
+              "increase": "1300$",
+              "image": "/orderPics/blackBall.avif"
+            },
+             {
+              "title": "Pearl White Multi-Coat",
+              "increase": "2100$",
+              "image": "/orderPics/whiteBall.avif"
+            }
+          ] 
+      },
+       "subcar": {
+        "name": "Model S Plaid",
+        "price":"100,990 $",
+        "mph": "2.5s",
+        "peakPower": "670 hp",
+        "range":"348 mi",
+        "image": "/ModelSPlaidTabs.avif",
+        "description":"Tesla Model S Plaid with ~348 mi range, tri‑motor producing 1,020 hp and 0‑60 mph ~2.0 s."
+      },
+
+      "detCardTravel": {
+          "title":"The Future of Travel Is Autonomous",
+          "subtitle":"Enter your destination and your Model S will manage your drive, from start to finish. Full Self-Driving (Supervised) provides advanced features that offer more active guidance and assisted driving under your active supervision.",
+          "image": "/aboutModelS2.avif",
+          "color1": "#000000",
+          "color2": "#737373"
+      },
+      "detCardTriMotor": {
+          "title": "Tri-Motor Power",
+          "subtitle": "Three carbon-sleeved rotors and an enhanced battery system ensure maximum power without performance degradation, even during back-to-back runs",
+          "image": "/aboutModelSTrimotor.avif"
+      },
+       "detCardPerformance": {
+          "title": "All-Electric Performance",
+          "subtitle": "A high-performance powertrain and advanced battery system unlock instant torque, efficiency and range. An optimized thermal system allows for faster charging and more consistent power at the track or on the road.",
+          "image": "/aboutModelSPerf.avif"
+      },
+        "detSlider": {
+            "slider1":{
+            "image": "/modelSDetSlid1.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider2":{
+            "image": "/modelSDetSlid2.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider3":{
+            "image": "/modelSDetSlid3.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider4":{
+            "image": "/modelSDetSlid4.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          }
+        },
+      
+      "detSafety": {
+        "image": "/modelSSafety.avif", 
+        "title": "Safety Comes Standard",
+        "description":
+          "Tesla vehicles are equipped with the latest safety features, helping keep you and your passengers safer on the road. Autopilot enables your vehicle to steer, accelerate and brake automatically within its lane under your active supervision. A strong frame and low-mounted battery pack offers enhanced occupant protection and low rollover.",
+        "features": [
+          {
+            "value": "360°",
+            "text": "Rear, side and forward-facing cameras provide complete visibility"
+          },
+          {
+            "value": "250m",
+            "text": "Visual processing detects objects up to 250 meters away"
+          },
+          {
+            "value": "🎱",
+            "text": "Tesla Vision monitors vehicles, assists with parking and helps avoid collisions"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Model X",
+      "price": "94,990 $",
+      "description": "Tesla Model X Plaid with ~348 mi range, tri‑motor producing 1,020 hp and 0‑60 mph ~2.0 s.",
+      "mph": "1.99s",
+      "range": "348 mi",
+      "peakPower": "1,020 hp",
+       "image": {
+        "menuImg": "/modelXMenu.avif",
+        "mainImg": "/modelS_longrange.avif",
+        "detImg": "/aboutModelX1.avif",
+        "aboutImg1": "/aboutModelS1.avif",
+        "modelSOrder1": "/modelSOrder1.jpg",
+        "modelSOrder2": "/modelSOrder2.jpg",
+        "modelSOrder3": "/modelSOrder3.jpg"
+      },
+      "detCardTravel": {
+          "title":"The Future of Travel Is Autonomous",
+          "subtitle":"Enter your destination and your Model S will manage your drive, from start to finish. Full Self-Driving (Supervised) provides advanced features that offer more active guidance and assisted driving under your active supervision.",
+          "image": "/aboutModelS2.avif",
+          "color1": "#000000",
+          "color2": "#737373"
+      },
+      "detCardTriMotor": {
+          "title": "Tri-Motor Power",
+          "subtitle": "Three carbon-sleeved rotors and an enhanced battery system ensure maximum power without performance degradation, even during back-to-back runs",
+          "image": "/aboutModelSTrimotor.avif"
+      },
+       "detCardPerformance": {
+          "title": "All-Electric Performance",
+          "subtitle": "A high-performance powertrain and advanced battery system unlock instant torque, efficiency and range. An optimized thermal system allows for faster charging and more consistent power at the track or on the road.",
+          "image": "/aboutModelSPerf.avif"
+      },
+
+           "detSlider": {
+            "slider1":{
+            "image": "/modelSDetSlid1.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider2":{
+            "image": "/modelSDetSlid2.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider3":{
+            "image": "/modelSDetSlid3.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider4":{
+            "image": "/modelSDetSlid4.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          }
+        },
+      
+      "detSafety": {
+        "image": "/modelSSafety.avif", 
+        "title": "Safety Comes Standard",
+        "description":
+          "Tesla vehicles are equipped with the latest safety features, helping keep you and your passengers safer on the road. Autopilot enables your vehicle to steer, accelerate and brake automatically within its lane under your active supervision. A strong frame and low-mounted battery pack offers enhanced occupant protection and low rollover.",
+        "features": [
+          {
+            "value": "360°",
+            "text": "Rear, side and forward-facing cameras provide complete visibility"
+          },
+          {
+            "value": "250m",
+            "text": "Visual processing detects objects up to 250 meters away"
+          },
+          {
+            "value": "🎱",
+            "text": "Tesla Vision monitors vehicles, assists with parking and helps avoid collisions"
+          }
+        ]
+      },
+
+      "subcar": {
+        "name": "Model X Plaid",
+        "price":"104,990 $",
+        "mph": "2.2s",
+        "peakPower": "770 hp",
+        "range":"428 mi",
+        "image": "/ModelXPlaidTabs.avif",
+        "description":"Tesla Model X Plaid with ~348 mi range, tri‑motor producing 1,020 hp and 0‑60 mph ~2.0 s."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Model 3 ",
+      "price": "54,990 $",
+      "description": "Model 3 Performance AWD: ~298 mi range, ~510 hp, 0‑60 mph in ~2.9 s.",
+      "mph": "2.9s",
+      "range": "298 mi",
+      "peakPower": "510 hp",
+       "image": {
+        "menuImg": "/model3Menu.avif",
+        "mainImg": "/modelS_longrange.avif",
+        "detImg": "/aboutModel31.avif",
+        "aboutImg1": "/aboutModelS1.avif",
+        "modelSOrder1": "/modelSOrder1.jpg",
+        "modelSOrder2": "/modelSOrder2.jpg",
+        "modelSOrder3": "/modelSOrder3.jpg"
+      },
+      "detCardTravel": {
+          "title":"The Future of Travel Is Autonomous",
+          "subtitle":"Enter your destination and your Model S will manage your drive, from start to finish. Full Self-Driving (Supervised) provides advanced features that offer more active guidance and assisted driving under your active supervision.",
+          "image": "/aboutModelS2.avif",
+          "color1": "#000000",
+          "color2": "#737373"
+      },
+      "detCardTriMotor": {
+          "title": "Tri-Motor Power",
+          "subtitle": "Three carbon-sleeved rotors and an enhanced battery system ensure maximum power without performance degradation, even during back-to-back runs",
+          "image": "/aboutModelSTrimotor.avif"
+      },
+       "detCardPerformance": {
+          "title": "All-Electric Performance",
+          "subtitle": "A high-performance powertrain and advanced battery system unlock instant torque, efficiency and range. An optimized thermal system allows for faster charging and more consistent power at the track or on the road.",
+          "image": "/aboutModelSPerf.avif"
+      },
+
+           "detSlider": {
+            "slider1":{
+            "image": "/model3DetSlid1.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider2":{
+            "image": "/model3DetSlid2.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider3":{
+            "image": "/model3DetSlid3.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider4":{
+            "image": "/model3DetSlid4.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          }
+        },
+      
+      "detSafety": {
+        "image": "/modelSSafety.avif", 
+        "title": "Safety Comes Standard",
+        "description":
+          "Tesla vehicles are equipped with the latest safety features, helping keep you and your passengers safer on the road. Autopilot enables your vehicle to steer, accelerate and brake automatically within its lane under your active supervision. A strong frame and low-mounted battery pack offers enhanced occupant protection and low rollover.",
+        "features": [
+          {
+            "value": "360°",
+            "text": "Rear, side and forward-facing cameras provide complete visibility"
+          },
+          {
+            "value": "250m",
+            "text": "Visual processing detects objects up to 250 meters away"
+          },
+          {
+            "value": "🎱",
+            "text": "Tesla Vision monitors vehicles, assists with parking and helps avoid collisions"
+          }
+        ]
+      },
+
+      "subcar": {
+        "name": "Model 3 Plaid",
+        "mph": "2.5s",
+        "peakPower": "670 hp",
+        "range":"348 mi",
+        "image": "/Model3PlaidTabs.avif",
+        "description":"Tesla Model 3 Plaid with ~348 mi range, tri‑motor producing 1,020 hp and 0‑60 mph ~2.0 s."
+      }
+    },
+
+    
+    {
+      "id": 4,
+      "name": "Model Y ",
+      "price": "46,630 $",
+      "description": "Model Y Long Range AWD: ~327 mi EPA range, ~397 hp, 0‑60 mph ~3.8‑4.6 s.",
+      "mph": "3.8–4.6s",
+      "range": "327 mi",
+      "peakPower": "397 hp",
+       "image": {
+        "menuImg": "/modelYMenu.avif",
+        "mainImg": "/modelS_longrange.avif",
+        "detImg": "/aboutModelY1.avif",
+        "aboutImg1": "/aboutModelY1.avif",
+        "modelSOrder1": "/modelSOrder1.jpg",
+        "modelSOrder2": "/modelSOrder2.jpg",
+        "modelSOrder3": "/modelSOrder3.jpg"
+      },
+      "detCardTravel": {
+          "title":"The Future of Travel Is Autonomous",
+          "subtitle":"Enter your destination and your Model S will manage your drive, from start to finish. Full Self-Driving (Supervised) provides advanced features that offer more active guidance and assisted driving under your active supervision.",
+          "image": "/aboutModelS2.avif",
+          "color1": "#000000",
+          "color2": "#737373"
+      },
+      "detCardTriMotor": {
+          "title": "Tri-Motor Power",
+          "subtitle": "Three carbon-sleeved rotors and an enhanced battery system ensure maximum power without performance degradation, even during back-to-back runs",
+          "image": "/aboutModelSTrimotor.avif"
+      },
+       "detCardPerformance": {
+          "title": "All-Electric Performance",
+          "subtitle": "A high-performance powertrain and advanced battery system unlock instant torque, efficiency and range. An optimized thermal system allows for faster charging and more consistent power at the track or on the road.",
+          "image": "/aboutModelSPerf.avif"
+      },
+
+           "detSlider": {
+            "slider1":{
+            "image": "/modelSDetSlid1.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider2":{
+            "image": "/modelSDetSlid2.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider3":{
+            "image": "/modelSDetSlid3.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider4":{
+            "image": "/modelSDetSlid4.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          }
+        },
+      
+      "detSafety": {
+        "image": "/modelSSafety.avif", 
+        "title": "Safety Comes Standard",
+        "description":
+          "Tesla vehicles are equipped with the latest safety features, helping keep you and your passengers safer on the road. Autopilot enables your vehicle to steer, accelerate and brake automatically within its lane under your active supervision. A strong frame and low-mounted battery pack offers enhanced occupant protection and low rollover.",
+        "features": [
+          {
+            "value": "360°",
+            "text": "Rear, side and forward-facing cameras provide complete visibility"
+          },
+          {
+            "value": "250m",
+            "text": "Visual processing detects objects up to 250 meters away"
+          },
+          {
+            "value": "🎱",
+            "text": "Tesla Vision monitors vehicles, assists with parking and helps avoid collisions"
+          }
+        ]
+      },
+
+      "subcar": {
+        "name": "Model Y Plaid",
+        "mph": "2.5s",
+        "peakPower": "670 hp",
+        "range":"348 mi",
+        "image": "/ModelYPlaidTabs.avif",
+        "description":"Tesla Model Y Plaid with ~348 mi range, tri‑motor producing 1,020 hp and 0‑60 mph ~2.0 s."
+      }
+    },
+    {
+      "id": 5,
+      "name": "Cybertruck",
+      "price": "89,990 $",
+      "description": "Model X Long Range AWD: ~352 mi range, ~670 hp, 0‑60 mph in ~3.8 s.",
+      "mph": "3.8s",
+      "range": "352 mi",
+      "peakPower": "670 hp",
+       "image": {
+        "menuImg": "/cybertruckMenu.avif",
+        "mainImg": "/modelS_longrange.avif",
+        "detImg": "/cybertruckabout1.avif",
+        "aboutImg1": "/aboutCyubertruck.avif"
+      },
+      "detCardTravel": {
+          "title":"The Future of Travel Is Autonomous",
+          "subtitle":"Enter your destination and your Model S will manage your drive, from start to finish. Full Self-Driving (Supervised) provides advanced features that offer more active guidance and assisted driving under your active supervision.",
+          "image": "/aboutModelS2.avif",
+          "color1": "#000000",
+          "color2": "#737373"
+      },
+      "detCardTriMotor": {
+          "title": "Tri-Motor Power",
+          "subtitle": "Three carbon-sleeved rotors and an enhanced battery system ensure maximum power without performance degradation, even during back-to-back runs",
+          "image": "/aboutModelSTrimotor.avif"
+      },
+       "detCardPerformance": {
+          "title": "All-Electric Performance",
+          "subtitle": "A high-performance powertrain and advanced battery system unlock instant torque, efficiency and range. An optimized thermal system allows for faster charging and more consistent power at the track or on the road.",
+          "image": "/aboutModelSPerf.avif"
+      },
+
+           "detSlider": {
+            "slider1":{
+            "image": "/cybertruckDetSlid1.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider2":{
+            "image": "/cybertruckDetSlid2.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider3":{
+            "image": "/cybertruckDetSlid3.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          },
+           "slider4":{
+            "image": "/cybertruckDetSlid4.avif",
+            "title": "Optimized Performance",
+            "subtitle": "Staggered wheels and tires maximize grip and stability while carbon ceramic brakes5 on Plaid provide extra stopping power."
+          }
+        },
+      
+      "detSafety": {
+        "image": "/modelSSafety.avif", 
+        "title": "Safety Comes Standard",
+        "description":
+          "Tesla vehicles are equipped with the latest safety features, helping keep you and your passengers safer on the road. Autopilot enables your vehicle to steer, accelerate and brake automatically within its lane under your active supervision. A strong frame and low-mounted battery pack offers enhanced occupant protection and low rollover.",
+        "features": [
+          {
+            "value": "360°",
+            "text": "Rear, side and forward-facing cameras provide complete visibility"
+          },
+          {
+            "value": "250m",
+            "text": "Visual processing detects objects up to 250 meters away"
+          },
+          {
+            "value": "🎱",
+            "text": "Tesla Vision monitors vehicles, assists with parking and helps avoid collisions"
+          }
+        ]
+      },
+
+      "subcar": {
+        "name": "Cybertruck Plaid",
+        "price": "104,990 $",
+        "mph": "2.5s",
+        "peakPower": "670 hp",
+        "range":"348 mi",
+        "image": "/cybertruckPlaidTabs.avif",
+        "description":"Tesla Model S Plaid with ~348 mi range, tri‑motor producing 1,020 hp and 0‑60 mph ~2.0 s."
+      }
+    },
+    {
+      "id": 6,
+      "name": "Inventory",
+      "price": "104,990 $",
+      "description": "Model X Plaid: ~335 mi range, tri‑motor ~1,020 hp, 0‑60 mph ~2.5 s.",
+      "mph": "2.5s",
+      "range": "335 mi",
+      "peakPower": "1,020 hp",
+      "image": {
+        "menuImg": "/inventoryMenu.avif",
+        "mainImg": "/modelS_longrange.avif",
+        "detImg": "/modelSDet.avif",
+        "aboutImg1": "/aboutModelS1.avif",
+        "modelSOrder1": "/modelSOrder1.jpg",
+        "modelSOrder2": "/modelSOrder2.jpg",
+        "modelSOrder3": "/modelSOrder3.jpg"
+      },
+      "detCardTravel": {
+          "title":"The Future of Travel Is Autonomous",
+          "subtitle":"Enter your destination and your Model S will manage your drive, from start to finish. Full Self-Driving (Supervised) provides advanced features that offer more active guidance and assisted driving under your active supervision.",
+          "image": "/aboutModelS2.avif",
+          "color1": "#000000",
+          "color2": "#737373"
+      },
+      "detCardTriMotor": {
+          "title": "Tri-Motor Power",
+          "subtitle": "Three carbon-sleeved rotors and an enhanced battery system ensure maximum power without performance degradation, even during back-to-back runs",
+          "image": "/aboutModelSTrimotor.avif"
+      },
+       "detCardPerformance": {
+          "title": "All-Electric Performance",
+          "subtitle": "A high-performance powertrain and advanced battery system unlock instant torque, efficiency and range. An optimized thermal system allows for faster charging and more consistent power at the track or on the road.",
+          "image": "/aboutModelSPerf.avif"
+      }
+    }
+  ],
+
+    "inventory": [
+    {
+      "id": 1,
+      "model": "Model S",
+      "price": "79,990",
+      "title": "All-Wheel Drive",
+      "desc": "2025 Demo Vehicle with 194 mi",
+      "range": "405 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPW8,$PN01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180",
+      "type": "Simple",
+      "wheels": "19' wheels",
+      "options": "Standard Interior"
+    },
+    {
+      "id": 2,
+      "model": "Model S",
+      "price": "112,990",
+      "title": "Tri Motor",
+      "desc": "High Performance 2025 Edition",
+      "range": "396 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPW8,$PPSB,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Plaid",
+      "wheels": "21' wheels",
+      "options": "Carbon Package"
+    },
+    {
+      "id": 3,
+      "model": "Model 3",
+      "price": "71,000",
+      "title": "Rear-Wheel Drive",
+      "desc": "New 2025 Build",
+      "range": "325 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PR01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Simple",
+      "wheels": "19' wheels",
+      "options": "Premium Package"
+    },
+    {
+      "id": 4,
+      "model": "Model 3",
+      "price": "89,500",
+      "title": "Performance",
+      "desc": "Acceleration Boosted Edition",
+      "range": "310 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PN00,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Plaid",
+      "wheels": "20' wheels",
+      "options": "Performance Package"
+    },
+    {
+      "id": 5,
+      "model": "Model X",
+      "price": "97,000",
+      "title": "Dual Motor",
+      "desc": "2025 Long Range Edition",
+      "range": "348 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PPSW,$SC04,$MDLY,$WY20A,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Simple",
+      "wheels": "20' wheels",
+      "options": "Luxury Interior"
+    },
+    {
+      "id": 6,
+      "model": "Model X",
+      "price": "123,990",
+      "title": "Tri Motor",
+      "desc": "Falcon Wing Plaid Edition",
+      "range": "333 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PR01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Plaid",
+      "wheels": "21' wheels",
+      "options": "Premium Connectivity"
+    },
+    {
+      "id": 7,
+      "model": "Model Y",
+      "price": "74,000",
+      "title": "Long Range",
+      "desc": "Family SUV 2025",
+      "range": "330 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPW8,$PN01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180",
+      "type": "Simple",
+      "wheels": "19' wheels",
+      "options": "7 Seat Interior"
+    },
+    {
+      "id": 8,
+      "model": "Model Y",
+      "price": "82,500",
+      "title": "Performance",
+      "desc": "High Speed Edition",
+      "range": "315 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PPSW,$SC04,$MDLY,$WY20A,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Plaid",
+      "wheels": "21' wheels",
+      "options": "Performance Package"
+    },
+    {
+      "id": 9,
+      "model": "Cybertruck",
+      "price": "85,000",
+      "title": "Dual Motor AWD",
+      "desc": "2025 Production Model",
+      "range": "340 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=FRONT34&size=600&model=ct&options=$APBS,$IG02,$CYBR,$SC04,$MTC06,$WH0B,$TW01,$CPF0&crop=1450,816,240,120&",
+      "type": "Simple",
+      "wheels": "20' wheels",
+      "options": "Standard Interior"
+    },
+    {
+      "id": 10,
+      "model": "Cybertruck",
+      "price": "110,000",
+      "title": "Tri Motor AWD",
+      "desc": "Off-road Beast Plaid",
+      "range": "500 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PR01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Plaid",
+      "wheels": "21' wheels",
+      "options": "Off-Road Package"
+    },
+    {
+      "id": 11,
+      "model": "Model S",
+      "price": "95,000",
+      "title": "Performance",
+      "desc": "Luxury Interior Edition",
+      "range": "380 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PPSW,$SC04,$MDLY,$WY20A,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Plaid",
+      "wheels": "20' wheels",
+      "options": "Performance Package"
+    },
+    {
+      "id": 12,
+      "model": "Model 3",
+      "price": "76,000",
+      "title": "Long Range",
+      "desc": "Efficient 2025 Edition",
+      "range": "358 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PR01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Simple",
+      "wheels": "19' wheels",
+      "options": "Standard Interior"
+    },
+    {
+      "id": 13,
+      "model": "Model X",
+      "price": "119,000",
+      "title": "Plaid Edition",
+      "desc": "Ultimate SUV Experience",
+      "range": "335 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPW8,$PPSB,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Plaid",
+      "wheels": "21' wheels",
+      "options": "Carbon Package"
+    },
+    {
+      "id": 14,
+      "model": "Model Y",
+      "price": "79,500",
+      "title": "Long Range AWD",
+      "desc": "Efficient Family SUV",
+      "range": "325 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PR01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Simple",
+      "wheels": "20' wheels",
+      "options": "Luxury Interior"
+    },
+    {
+      "id": 15,
+      "model": "Cybertruck",
+      "price": "125,000",
+      "title": "Quad Motor",
+      "desc": "Extreme Off-road Beast",
+      "range": "500+ mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=FRONT34&size=600&model=ct&options=$APBS,$IG02,$CYBR,$SC04,$MTC06,$WH0B,$TW01,$CPF0&crop=1450,816,240,120&",
+      "type": "Plaid",
+      "wheels": "21' wheels",
+      "options": "Luxury Interior"
+    },
+    {
+      "id": 16,
+      "model": "Model S",
+      "price": "91,000",
+      "title": "All-Wheel Drive",
+      "desc": "Sporty Luxury Sedan",
+      "range": "390 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPW8,$PPSB,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Simple",
+      "wheels": "19' wheels",
+      "options": "Premium Package"
+    },
+    {
+      "id": 17,
+      "model": "Model 3",
+      "price": "84,000",
+      "title": "Performance AWD",
+      "desc": "Quickest Model 3",
+      "range": "315 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PR01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Plaid",
+      "wheels": "20' wheels",
+      "options": "Performance Package"
+    },
+    {
+      "id": 18,
+      "model": "Model Y",
+      "price": "88,000",
+      "title": "Performance",
+      "desc": "2025 Sport Edition",
+      "range": "303 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPW8,$PN01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180",
+      "type": "Plaid",
+      "wheels": "21' wheels",
+      "options": "Luxury Interior"
+    },
+    {
+      "id": 19,
+      "model": "Model X",
+      "price": "100,500",
+      "title": "Dual Motor AWD",
+      "desc": "Spacious Family SUV",
+      "range": "348 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=STUD_3QTR&size=600&model=my&options=$APBS,$IPB8,$PR01,$SC04,$MDLY,$WY19P,$MTY60,$STY5S,$CPF0&crop=1150,647,390,180&",
+      "type": "Simple",
+      "wheels": "20' wheels",
+      "options": "Standard Interior"
+    },
+    {
+      "id": 20,
+      "model": "Cybertruck",
+      "price": "98,500",
+      "title": "Dual Motor",
+      "desc": "Adventure Ready",
+      "range": "350 mi Range (EPA est.)",
+      "img": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2?&bkba_opt=1&view=FRONT34&size=600&model=ct&options=$APBS,$IG02,$CYBR,$SC04,$MTC06,$WH0B,$TW01,$CPF0&crop=1450,816,240,120&",
+      "type": "Simple",
+      "wheels": "20' wheels",
+      "options": "Standard Interior"
+    }
+  ],
+
+
+
+
+  "shop":[
+   {
+      "header":[
+         {
+            "image":"/headerPics/chargingMenu1.avif",
+            "title":"Charging",
+            "key": "charging"
+         },
+         {
+            "image":"/headerPics/shopMenu2.avif",
+            "title":"Apparel",
+            "key": "apparel "
+         },
+         {
+            "image":"/headerPics/shopMenu3.avif",
+            "title":"Veehicle Accessuar",
+            "key": "accessories"
+         },
+         {
+            "image":"/headerPics/shopMenu4.avif",
+            "title":"Lifestyle",
+            "key": "lifestyle"
+         }
+      ]
+   },
+   {
+      "accessories":[
+         {
+            "id":1,
+            "name":"Cybertruck",
+            "categories":{
+               "Best Seller":[
+                  {
+                     "id":1, 
+                     "category":"Best Seller",
+                     "name":"Cybertruck Crossbars",
+                     "price":800,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberBsFront1.avif",
+                     "img2":"/shopPics/cyberBsBack1.avif"
+                  },
+                    {
+                     "id":2, 
+                     "name":"Cybertruck Crossbars",
+                     "price":800,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberBsFront1.avif",
+                     "img2":"/shopPics/cyberBsBack1.avif"
+                  },
+                    {
+                     "id":3, 
+                     "name":"Cybertruck Crossbars",
+                     "price":800,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberBsFront1.avif",
+                     "img2":"/shopPics/cyberBsBack1.avif"
+                  },
+                    {
+                     "id":4, 
+                     "name":"Cybertruck Crossbars",
+                     "price":800,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberBsFront1.avif",
+                     "img2":"/shopPics/cyberBsBack1.avif"
+                  },
+                    {
+                     "id":5, 
+                     "name":"Cybertruck Crossbars",
+                     "price":800,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberBsFront1.avif",
+                     "img2":"/shopPics/cyberBsBack1.avif"
+                  },
+                    {
+                     "id":6, 
+                     "name":"Cybertruck Crossbars",
+                     "price":800,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberBsFront1.avif",
+                     "img2":"/shopPics/cyberBsBack1.avif"
+                  },
+                    {
+                     "id":7, 
+                     "name":"Cybertruck Crossbars",
+                     "price":800,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberBsFront1.avif",
+                     "img2":"/shopPics/cyberBsBack1.avif"
+                  }
+               ],
+               "Interior":[
+                  {
+                     "id":8,
+                     "category": "Interior",
+                     "name":"Cybertruck Seat Covers",
+                     "price":300,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberInFront1.avif",
+                     "img2":"/shopPics/cyberInBack1.avif"
+                  },
+                   {
+                     "id":9, 
+                     "name":"Cybertruck Seat Covers",
+                     "price":300,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberInFront1.avif",
+                     "img2":"/shopPics/cyberInBack1.avif"
+                  },
+                   {
+                     "id":10, 
+                     "name":"Cybertruck Seat Covers",
+                     "price":300,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberInFront1.avif",
+                     "img2":"/shopPics/cyberInBack1.avif"
+                  },
+                    {
+                     "id":11, 
+                     "name":"Cybertruck Seat Covers",
+                     "price":300,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberInFront1.avif",
+                     "img2":"/shopPics/cyberInBack1.avif"
+                  },
+                    {
+                     "id":12, 
+                     "name":"Cybertruck Seat Covers",
+                     "price":300,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberInFront1.avif",
+                     "img2":"/shopPics/cyberInBack1.avif"
+                  }
+               ],
+               "Exterior":[
+                  {
+                     "id":13,
+                      "category": "Exterior",
+                     "name":"Cybertruck Exterior Wrap",
+                     "price":2000,
+                     "currency":"USD",
+                     "img1":"/shopPics/cybertruckExFront1.avif",
+                     "img2":"/shopPics/cybertruckExBack1.avif"
+                  },
+                    {
+                     "id":14, 
+                     "name":"Cybertruck Exterior Wrap",
+                     "price":2000,
+                     "currency":"USD",
+                     "img1":"/shopPics/cybertruckExFront1.avif",
+                     "img2":"/shopPics/cybertruckExBack1.avif"
+                  },
+                   {
+                     "id":15, 
+                     "name":"Cybertruck Exterior Wrap",
+                     "price":2000,
+                     "currency":"USD",
+                     "img1":"/shopPics/cybertruckExFront1.avif",
+                     "img2":"/shopPics/cybertruckExBack1.avif"
+                  },
+                   {
+                     "id":16, 
+                     "name":"Cybertruck Exterior Wrap",
+                     "price":2000,
+                     "currency":"USD",
+                     "img1":"/shopPics/cybertruckExFront1.avif",
+                     "img2":"/shopPics/cybertruckExBack1.avif"
+                  },
+                   {
+                     "id":17, 
+                     "name":"Cybertruck Exterior Wrap",
+                     "price":2000,
+                     "currency":"USD",
+                     "img1":"/shopPics/cybertruckExFront1.avif",
+                     "img2":"/shopPics/cybertruckExBack1.avif"
+                  }
+               ],
+               "Parts":[
+                  {
+                     "id":18,
+                      "category": "Parts",
+                     "name":"Cybertruck Spare Tire Kit",
+                     "price":700,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberPaFront1.avif",
+                     "img2":"/shopPics/cyberPaBack1.avif"
+                  }
+               ],
+               "Wheels":[
+                  {
+                     "id":19,
+                     "category": "Wheels and Tires",
+                     "name":"Cybertruck Off-Road Wheels",
+                     "price":3500,
+                     "currency":"USD",
+                     "img1":"/shopPics/cyberWhFront1.avif",
+                     "img2":"/shopPics/cyberWhBack1.avif"
+                  }
+               ]
+            }
+         },
+         {
+            "id":2,
+            "name":"Model S",
+            "categories":{
+               "Best Seller":[
+                  {
+                     "id":1, 
+                     "name":"Model S All-Weather Floor Mats",
+                     "price":200,
+                     "currency":"USD",
+                     "img":"/shopPics/model_s_best_seller.jpg"
+                  }
+               ],
+               "interior":[
+                  {
+                     "id":1,
+                     "category": "Interior",
+                     "name":"Model S Interior LED Upgrade Kit",
+                     "price":150,
+                     "currency":"USD",
+                     "img":"/shopPics/model_s_interior.jpg"
+                  }
+               ],
+               "exterior":[
+                  {
+                     "id":1,
+                     "category": "Exterior",
+                     "name":"Model S Aero Wheel Cap Kit",
+                     "price":50,
+                     "currency":"USD",
+                     "img":"/shopPics/model_s_exterior.jpg"
+                  }
+               ],
+               "parts":[
+                  {
+                     "id":1,
+                     "category": "Parts",
+                     "name":"Model S Brake Caliper Covers",
+                     "price":300,
+                     "currency":"USD",
+                     "img":"/shopPics/model_s_parts.jpg"
+                  }
+               ],
+               "wheels":[
+                  {
+                     "id":1,
+                     "category": "Wheels and Tires",
+                     "name":"Model S 21” Arachnid Wheels",
+                     "price":4500,
+                     "currency":"USD",
+                     "img":"/shopPics/model_s_wheels.jpg"
+                  }
+               ]
+            }
+         },
+         {
+            "id":3,
+            "name":"Model 3",
+            "categories":{
+               "Best Seller":[
+                  {
+                     "id":1,
+                     "category": "Best Seller",
+                     "name":"Model 3 Roof Rack",
+                     "price":450,
+                     "currency":"USD",
+                     "img":"/shopPics/model_3_best_seller.jpg"
+                  }
+               ],
+               "Interior":[
+                  {
+                     "id":1,
+                     "category": "Interior",
+                     "name":"Model 3 Interior Lighting Kit",
+                     "price":100,
+                     "currency":"USD",
+                     "img":"/shopPics/model_3_interior.jpg"
+                  }
+               ],
+               "Exterior":[
+                  {
+                     "id":1,
+                     "category": "Exterior",
+                     "name":"Model 3 Chrome Delete Kit",
+                     "price":120,
+                     "currency":"USD",
+                     "img":"/shopPics/model_3_exterior.jpg"
+                  }
+               ],
+               "Parts":[
+                  {
+                     "id":1,
+                     "category": "Parts",
+                     "name":"Model 3 Cabin Air Filter",
+                     "price":40,
+                     "currency":"USD",
+                     "img":"/shopPics/model_3_parts.jpg"
+                  }
+               ],
+               "Wheels":[
+                  {
+                     "id":1,
+                     "category": "Wheels and Tires",
+                     "name":"Model 3 19” Sport Wheels",
+                     "price":2000,
+                     "currency":"USD",
+                     "img":"/shopPics/model_3_wheels.jpg"
+                  }
+               ]
+            }
+         },
+         {
+            "id":4,
+            "name":"Model X",
+            "categories":{
+               "best_seller":[
+                  {
+                     "id":1,
+                     "category": "Best Seller",
+                     "name":"Model X Sunshade",
+                     "price":180,
+                     "currency":"USD",
+                     "img":"/shopPics/model_x_best_seller.jpg"
+                  }
+               ],
+               "interior":[
+                  {
+                     "id":1,
+                     "category": "Interior",
+                     "name":"Model X Premium Seat Covers",
+                     "price":350,
+                     "currency":"USD",
+                     "img":"/shopPics/model_x_interior.jpg"
+                  }
+               ],
+               "exterior":[
+                  {
+                     "id":1,
+                      "category": "Exterior",
+                     "name":"Model X Mud Flaps",
+                     "price":90,
+                     "currency":"USD",
+                     "img":"/shopPics/model_x_exterior.jpg"
+                  }
+               ],
+               "parts":[
+                  {
+                     "id":1,
+                     "category": "Parts",
+                     "name":"Model X HEPA Air Filter",
+                     "price":200,
+                     "currency":"USD",
+                     "img":"/shopPics/model_x_parts.jpg"
+                  }
+               ],
+               "wheels":[
+                  {
+                     "id":1,
+                     "category": "Wheels and Tires",
+                     "name":"Model X 22” Turbine Wheels",
+                     "price":5200,
+                     "currency":"USD",
+                     "img":"/shopPics/model_x_wheels.jpg"
+                  }
+               ]
+            }
+         },
+         {
+            "id":5,
+            "name":"Model Y",
+            "categories":{
+               "best_seller":[
+                  {
+                     "id":1,
+                     "category": "Best Seller",
+                     "name":"Model Y Roof Sunshade",
+                     "price":160,
+                     "currency":"USD",
+                     "img":"/shopPics/model_y_best_seller.jpg"
+                  }
+               ],
+               "interior":[
+                  {
+                     "id":1,
+                     "category": "Interior",
+                     "name":"Model Y Rear Seat Covers",
+                     "price":220,
+                     "currency":"USD",
+                     "img":"/shopPics/model_y_interior.jpg"
+                  }
+               ],
+               "exterior":[
+                  {
+                     "id":1,
+                      "category": "Exterior",
+                     "name":"Model Y Door Sill Protectors",
+                     "price":80,
+                     "currency":"USD",
+                     "img":"/shopPics/model_y_exterior.jpg"
+                  }
+               ],
+               "parts":[
+                  {
+                     "id":1,
+                     "category": "Parts",
+                     "name":"Model Y Cabin Air Filter",
+                     "price":40,
+                     "currency":"USD",
+                     "img":"/shopPics/model_y_parts.jpg"
+                  }
+               ],
+               "wheels":[
+                  {
+                     "id":1,
+                     "category": "Wheels and Tires",
+                     "name":"Model Y 20” Induction Wheels",
+                     "price":2500,
+                     "currency":"USD",
+                     "img":"/shopPics/model_y_wheels.jpg"
+                  }
+               ]
+            }
+         }
+        
+      ]
+   },
+   {
+      "apparel":{
+         "men":[{
+            "Hats":[
+               {
+                  "id":1,
+                  "name":"Men’s Logo Cap",
+                  "price":30,
+                  "currency":"USD",
+                  "img":"/shopPics/men_hat.jpg"
+               }
+            ],
+            "Tees":[
+               {
+                  "id":1,
+                  "name":"Men’s Graphic Tee",
+                  "price":35,
+                  "currency":"USD",
+                  "img":"/shopPics/men_tee.jpg"
+               }
+            ],
+            "Sweatshirts":[
+               {
+                  "id":1,
+                  "name":"Men’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                  "img":"/shopPics/men_sweatshirt.jpg"
+               }
+            ]
+         }],
+         "women":[{
+            "hats":[
+               {
+                  "id":1,
+                  "name":"Women’s Logo Cap",
+                  "price":30,
+                  "currency":"USD",
+                  "img":"/shopPics/women_hat.jpg"
+               }
+            ],
+            "tees":[
+               {
+                  "id":1,
+                  "name":"Women’s Graphic Tee",
+                  "price":35,
+                  "currency":"USD",
+                  "img":"/shopPics/women_tee.jpg"
+               }
+            ],
+            "sweatshirts":[
+               {
+                  "id":1,
+                  "name":"Women’s Pullover Hoodie",
+                  "price":60,
+                  "currency":"USD",
+                  "img":"/shopPics/women_sweatshirt.jpg"
+               }
+            ]
+         }],
+         "kids":{
+            "hats":[
+               {
+                  "id":1,
+                  "name":"Kids’ Logo Cap",
+                  "price":20,
+                  "currency":"USD",
+                  "img":"/shopPics/kids_hat.jpg"
+               }
+            ],
+            "tees":[
+               {
+                  "id":1,
+                  "name":"Kids’ Graphic Tee",
+                  "price":25,
+                  "currency":"USD",
+                  "img":"/shopPics/kids_tee.jpg"
+               }
+            ],
+            "sweatshirts":[
+               {
+                  "id":1,
+                  "name":"Kids’ Hoodie",
+                  "price":40,
+                  "currency":"USD",
+                  "img":"/shopPics/kids_sweatshirt.jpg"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "charging":{
+         "Chargers":[
+            {
+               "id":1,
+               "category": "Chargers",
+               "name":"Wall Connector",
+               "price":"$475",
+               "currency":"USD",
+               "img1":"/shopPics/chargingChFront1.avif",
+               "img2":"/shopPics/chargingChBack1.avif"
+            },
+             {
+               "id":2, 
+               "name":"Wall Connector",
+               "price":"$475",
+               "currency":"USD",
+               "img1":"/shopPics/chargingChFront1.avif",
+               "img2":"/shopPics/chargingChBack1.avif"
+            },
+             {
+               "id":3, 
+               "name":"Wall Connector",
+               "price":"$475",
+               "currency":"USD",
+               "img1":"/shopPics/chargingChFront1.avif",
+               "img2":"/shopPics/chargingChBack1.avif"
+            },
+             {
+               "id":4, 
+               "name":"Wall Connector",
+               "price":"$475",
+               "currency":"USD",
+               "img1":"/shopPics/chargingChFront1.avif",
+               "img2":"/shopPics/chargingChBack1.avif"
+            },
+             {
+               "id":5, 
+               "name":"Wall Connector",
+               "price":"$475",
+               "currency":"USD",
+               "img1":"/shopPics/chargingChFront1.avif",
+               "img2":"/shopPics/chargingChBack1.avif"
+            }
+         ],
+         "Adapters":[
+            {
+               "id":1,
+               "category": "Adapters",
+               "name":"J1772 Charging Adapter",
+               "price":"$50",
+               "currency":"USD",
+               "img1":"/shopPics/chargingAdFront1.avif",
+               "img2":"/shopPics/chargingAdBack1.avif"
+            },
+              {
+               "id":2, 
+               "name":"J1772 Charging Adapter",
+               "price":"$50",
+               "currency":"USD",
+               "img1":"/shopPics/chargingAdFront1.avif",
+               "img2":"/shopPics/chargingAdBack1.avif"
+            },
+              {
+               "id":3, 
+               "name":"J1772 Charging Adapter",
+               "price":"$50",
+               "currency":"USD",
+               "img1":"/shopPics/chargingAdFront1.avif",
+               "img2":"/shopPics/chargingAdBack1.avif"
+            },
+              {
+               "id":3, 
+               "name":"J1772 Charging Adapter",
+               "price":"$50",
+               "currency":"USD",
+               "img1":"/shopPics/chargingAdFront1.avif",
+               "img2":"/shopPics/chargingAdBack1.avif"
+            }
+         ],
+         "Parts":[
+            {
+               "id":1,
+               "category": "Parts",
+               "name":"Wall Connector Pedestal",
+               "price":"$425",
+               "currency":"USD",
+               "img1":"/shopPics/chargingPaFront1.avif",
+               "img2":"/shopPics/chargingPaBack1.avif"
+            },
+             {
+               "id":2, 
+               "name":"Wall Connector Pedestal",
+               "price":"$425",
+               "currency":"USD",
+               "img1":"/shopPics/chargingPaFront1.avif",
+               "img2":"/shopPics/chargingPaBack1.avif"
+            },
+             {
+               "id":3, 
+               "name":"Wall Connector Pedestal",
+               "price":"$425",
+               "currency":"USD",
+               "img1":"/shopPics/chargingPaFront1.avif",
+               "img2":"/shopPics/chargingPaBack1.avif"
+            },
+             {
+               "id":4, 
+               "name":"Wall Connector Pedestal",
+               "price":"$425",
+               "currency":"USD",
+               "img1":"/shopPics/chargingPaFront1.avif",
+               "img2":"/shopPics/chargingPaBack1.avif"
+            },
+             {
+               "id":5, 
+               "name":"Wall Connector Pedestal",
+               "price":"$425",
+               "currency":"USD",
+               "img1":"/shopPics/chargingPaFront1.avif",
+               "img2":"/shopPics/chargingPaBack1.avif"
+            },
+             {
+               "id":6, 
+               "name":"Wall Connector Pedestal",
+               "price":"$425",
+               "currency":"USD",
+               "img1":"/shopPics/chargingPaFront1.avif",
+               "img2":"/shopPics/chargingPaBack1.avif"
+            } 
+         ]
+      }
+   },
+   {
+      "lifestyle":{
+         "Best Seller":[
+            {
+               "id":1,
+               "category": "Best Seller",
+               "name":"Tesla Thermal Mug",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBsFront1.avif",
+               "img2":"/shopPics/lifestyleBsBack1.avif"
+            },
+             {
+               "id":2, 
+               "name":"Tesla Thermal Mug",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBsFront1.avif",
+               "img2":"/shopPics/lifestyleBsBack1.avif"
+            },
+             {
+               "id":3, 
+               "name":"Tesla Thermal Mug",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBsFront1.avif",
+               "img2":"/shopPics/lifestyleBsBack1.avif"
+            },
+             {
+               "id":4, 
+               "name":"Tesla Thermal Mug",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBsFront1.avif",
+               "img2":"/shopPics/lifestyleBsBack1.avif"
+            },
+             {
+               "id":5, 
+               "name":"Tesla Thermal Mug",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBsFront1.avif",
+               "img2":"/shopPics/lifestyleBsBack1.avif"
+            }
+         ],
+         "Drinkware":[
+            {
+               "id":1,
+               "category": "Drinkware",
+               "name":"Insulated Water Bottle",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleDrFront1.avif",
+               "img2":"/shopPics/lifestyleDrBack1.avif"
+            },
+            {
+               "id":2, 
+               "name":"Insulated Water Bottle",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleDrFront1.avif",
+               "img2":"/shopPics/lifestyleDrBack1.avif"
+            },
+             {
+               "id":3, 
+               "name":"Insulated Water Bottle",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleDrFront1.avif",
+               "img2":"/shopPics/lifestyleDrBack1.avif"
+            },
+             {
+               "id":4, 
+               "name":"Insulated Water Bottle",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleDrFront1.avif",
+               "img2":"/shopPics/lifestyleDrBack1.avif"
+            },
+             {
+               "id":5, 
+               "name":"Insulated Water Bottle",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleDrFront1.avif",
+               "img2":"/shopPics/lifestyleDrBack1.avif"
+            }, {
+               "id":6, 
+               "name":"Insulated Water Bottle",
+               "price":"$35",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleDrFront1.avif",
+               "img2":"/shopPics/lifestyleDrBack1.avif"
+            }
+            
+         ],
+         "Bags":[
+            {
+               "id":1,
+               "category": "Bags",
+               "name":"Tesla Backpack",
+               "price":"$80",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBaFront1.avif",
+               "img2":"/shopPics/lifestyleBaBack1.avif"
+            },
+                {
+               "id":2, 
+               "name":"Tesla Backpack",
+               "price":"$80",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBaFront1.avif",
+               "img2":"/shopPics/lifestyleBaBack1.avif"
+            },
+                   {
+               "id":3, 
+               "name":"Tesla Backpack",
+               "price":"$80",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBaFront1.avif",
+               "img2":"/shopPics/lifestyleBaBack1.avif"
+            },
+                   {
+               "id":4, 
+               "name":"Tesla Backpack",
+               "price":"$80",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBaFront1.avif",
+               "img2":"/shopPics/lifestyleBaBack1.avif"
+            },
+                   {
+               "id":5, 
+               "name":"Tesla Backpack",
+               "price":"$80",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBaFront1.avif",
+               "img2":"/shopPics/lifestyleBaBack1.avif"
+            },
+                   {
+               "id":6, 
+               "name":"Tesla Backpack",
+               "price":"$80",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleBaFront1.avif",
+               "img2":"/shopPics/lifestyleBaBack1.avif"
+            }
+         ],
+         "Mini Teslas":[
+            {
+               "id":1,
+               "category": "Mini Teslas",
+               "name":"Tesla Model S for Kids",
+               "price":"$600",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleMtFront1.avif",
+               "img2":"/shopPics/lifestyleMtBack1.avif"
+            },
+            {
+               "id":1, 
+               "name":"Tesla Model S for Kids",
+               "price":"$600",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleMtFront1.avif",
+               "img2":"/shopPics/lifestyleMtBack1.avif"
+            },
+             {
+               "id":1, 
+               "name":"Tesla Model S for Kids",
+               "price":"$600",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleMtFront1.avif",
+               "img2":"/shopPics/lifestyleMtBack1.avif"
+            },
+             {
+               "id":1, 
+               "name":"Tesla Model S for Kids",
+               "price":"$600",
+               "currency":"USD",
+               "img1":"/shopPics/lifestyleMtFront1.avif",
+               "img2":"/shopPics/lifestyleMtBack1.avif"
+            }
+         ]
+      }
+   }
+],
+
+
+
+
+
+
+  "energy": [
+    {
+      "image": "/headerPics/energyMenu1.avif",
+      "title": "Solar Panels"
+    },
+     {
+      "image": "/headerPics/energyMenu2.avif",
+      "title": "Solar Roofs"
+    },
+     {
+      "image": "/headerPics/energyMenu3.avif",
+      "title": "PowerWall"
+    },
+     {
+      "image": "/headerPics/energyMenu4.avif",
+      "title": "Megapack"
+    }
+  ],
+  "charging": [
+    {
+      "image": "/headerPics/chargingMenu1.avif",
+      "title": "Charging"
+    },
+    {
+      "image": "/headerPics/chargingMenu2.avif",
+      "title": "Home Charging"
+    },
+    {
+      "image": "/headerPics/chargingMenu3.avif",
+      "title": "Supercharging"
+    },
+    {
+      "image": "/headerPics/chargingMenu4.avif",
+      "title": "Charging for Business"
+    }
+  ],
+
+    
+ 
+  "accessories": [
+    {
+      "id": "cybertruck",
+      "name": "Cybertruck", 
+      "best_seller": [
+          {
+          "id": 1,
+          "name": "Cybertruck Crossbars",
+          "category": "Best Seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+          "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        },
+            {
+          "id": 2,
+          "name": "Cybertruck Crossbars",
+          "category": "best_seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+           "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        },
+            {
+          "id": 3,
+          "name": "Cybertruck Crossbars",
+          "category": "best_seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+        "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        },
+            {
+          "id": 4,
+          "name": "Cybertruck Crossbars",
+          "category": "best_seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+          "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        },
+            {
+          "id": 5,
+          "name": "Cybertruck Crossbars",
+          "category": "best_seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+        "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        },
+            {
+          "id": 6,
+          "name": "Cybertruck Crossbars",
+          "category": "best_seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+          "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        },
+            {
+          "id": 7,
+          "name": "Cybertruck Crossbars",
+          "category": "best_seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+         "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        },
+            {
+          "id": 8,
+          "name": "Cybertruck Crossbars",
+          "category": "best_seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+         "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        },
+            {
+          "id": 9,
+          "name": "Cybertruck Crossbars",
+          "category": "best_seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+          "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        },
+            {
+          "id": 10,
+          "name": "Cybertruck Crossbars",
+          "category": "best_seller",
+          "description": "Warm and stylish Cybertruck-themed hoodie.",
+          "price": "$800",
+          "currency": "USD",
+          "img": "/shopPics/cybertruckShop.avif",
+          "image1": "/shopPics/cyberBsFront1.avif",
+          "image2": "/shopPics/cyberBsBack1.avif" ,
+          "inStock": true
+        }
+      ],
+      "interior": [
+          {
+            "id": 1,
+            "name": "Cybertruck Cooler",
+            "price": "$700",
+           "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "Warm and stylish Cybertruck-themed hoodie.",
+            "inStock": true
+          },
+          {
+            "id": 2,
+            "name": "All-Weather Floor Mats",
+            "price": "$250",
+               "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "Durable all-weather floor mats designed to protect your interior from dirt and spills.",
+            "inStock": true
+          },
+          {
+            "id": 3,
+            "name": "Premium Seat Covers",
+            "price": "$450",
+             "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "Custom-fit premium leather seat covers for a luxurious feel.",
+            "inStock": true
+          },
+          {
+            "id": 4,
+            "name": "Carbon Fiber Dashboard Trim",
+            "price": "$350",
+             "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "High-quality carbon fiber trim for a sporty and modern dashboard look.",
+            "inStock": true
+          },
+          {
+            "id": 5,
+            "name": "Center Console Organizer",
+            "price": "$120",
+             "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "Keep your items organized with a perfectly fitted center console organizer.",
+            "inStock": true
+          },
+          {
+            "id": 6,
+            "name": "Wireless Charging Pad",
+            "price": "$180",
+            "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "Fast wireless charging pad for your smartphone and devices.",
+            "inStock": true
+          },
+          {
+            "id": 7,
+            "name": "Ambient LED Lighting Kit",
+            "price": "$300",
+             "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "Customizable ambient LED lighting for a modern cabin atmosphere.",
+            "inStock": false
+          },
+          {
+            "id": 8,
+            "name": "Cybertruck Sunshade",
+            "price": "$90",
+            "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "UV-protective sunshade designed to fit the Cybertruck windshield perfectly.",
+            "inStock": true
+          },
+          {
+            "id": 9,
+            "name": "Rear Seat Entertainment System",
+            "price": "$1200",
+            "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "High-definition rear seat entertainment screens for passengers.",
+            "inStock": true
+          },
+          {
+            "id": 10,
+            "name": "Cybertruck Pet Seat Cover",
+            "price": "$160",
+           "image1": "/shopPics/cyberInFront1.avif",
+          "image2": "/shopPics/cyberInBack1.avif" ,
+            "category": "Interior",
+            "description": "Waterproof and durable pet seat cover to protect your interior.",
+            "inStock": true
+          }
+        ],
+
+      "exterior": [
+          {
+            "id": 1,
+            "name": "Cybertruck CyberTent",
+            "price": "$1590",
+            "images": [
+              "/shopPics/cybertruckExFront1.avif",
+              "/shopPics/cybertruckExBack1.avif"
+            ],
+            "category": "Exterior",
+            "description": "Waterproof and durable pet seat cover to protect your interior.",
+            "inStock": true
+          },
+          {
+            "id": 2,
+            "name": "All-Terrain Wheel Kit",
+            "price": "$3500",
+            "images": [
+              "/shopPics/allTerrainWheelFront",
+              "/shopPics/allTerrainWheelBack"
+            ],
+            "category": "Exterior",
+            "description": "Heavy-duty wheels designed for extreme off-road performance.",
+            "inStock": true
+          },
+          {
+            "id": 3,
+            "name": "Cybertruck Roof Rack",
+            "price": "$900",
+            "images": [
+              "/shopPics/roofRackFront",
+              "/shopPics/roofRackBack"
+            ],
+            "category": "Exterior",
+            "description": "Aerodynamic roof rack for carrying extra cargo.",
+            "inStock": true
+          },
+          {
+            "id": 4,
+            "name": "Retractable Tonneau Cover",
+            "price": "$1200",
+            "images": [
+              "/shopPics/tonneauCoverFront",
+              "/shopPics/tonneauCoverBack"
+            ],
+            "category": "Exterior",
+            "description": "Motorized retractable bed cover for security and convenience.",
+            "inStock": true
+          },
+          {
+            "id": 5,
+            "name": "Cybertruck Front Bull Bar",
+            "price": "$1100",
+            "images": [
+              "/shopPics/bullBarFront",
+              "/shopPics/bullBarBack"
+            ],
+            "category": "Exterior",
+            "description": "Heavy-duty bull bar for extra protection and rugged style.",
+            "inStock": false
+          },
+          {
+            "id": 6,
+            "name": "Off-Road Light Bar",
+            "price": "$750",
+            "images": [
+              "/shopPics/lightBarFront",
+              "/shopPics/lightBarBack"
+            ],
+            "category": "Exterior",
+            "description": "High-intensity LED light bar for improved night visibility.",
+            "inStock": true
+          },
+          {
+            "id": 7,
+            "name": "Cybertruck Side Steps",
+            "price": "$650",
+            "images": [
+              "/shopPics/sideStepsFront",
+              "/shopPics/sideStepsBack"
+            ],
+            "category": "Exterior",
+            "description": "Durable side steps for easier cabin access.",
+            "inStock": true
+          },
+          {
+            "id": 8,
+            "name": "Adventure Spare Tire Mount",
+            "price": "$580",
+            "images": [
+              "/shopPics/spareTireMountFront",
+              "/shopPics/spareTireMountBack"
+            ],
+            "category": "Exterior",
+            "description": "Rear-mounted spare tire holder for long off-road trips.",
+            "inStock": true
+          },
+          {
+            "id": 9,
+            "name": "Cybertruck Mud Flaps",
+            "price": "$200",
+            "images": [
+              "/shopPics/mudFlapsFront",
+              "/shopPics/mudFlapsBack"
+            ],
+            "category": "Exterior",
+            "description": "Protects the vehicle’s paint and underbody from mud and rocks.",
+            "inStock": true
+          },
+          {
+            "id": 10,
+            "name": "Tailgate Bike Rack",
+            "price": "$450",
+            "images": [
+              "/shopPics/bikeRackFront",
+              "/shopPics/bikeRackBack"
+            ],
+            "category": "Exterior",
+            "description": "Secure and easy-to-use bike rack for outdoor adventures.",
+            "inStock": true
+          }
+        ],
+      "parts": [
+          {
+            "id": 1,
+            "name": "Cybertruck Brake Kit",
+            "price": "$1800",
+            "images": [
+              "/shopPics/brakeKitFront",
+              "/shopPics/brakeKitBack"
+            ],
+            "category": "Parts",
+            "description": "High-performance brake kit for superior stopping power.",
+            "inStock": true
+          },
+          {
+            "id": 2,
+            "name": "Performance Suspension Upgrade",
+            "price": "$2200",
+            "images": [
+              "/shopPics/suspensionFront",
+              "/shopPics/suspensionBack"
+            ],
+            "category": "Parts",
+            "description": "Enhanced suspension for improved ride comfort and handling.",
+            "inStock": true
+          },
+          {
+            "id": 3,
+            "name": "All-Season Wiper Blades",
+            "price": "$60",
+            "images": [
+              "/shopPics/wiperBladesFront",
+              "/shopPics/wiperBladesBack"
+            ],
+            "category": "Parts",
+            "description": "Durable wiper blades designed for all weather conditions.",
+            "inStock": true
+          },
+          {
+            "id": 4,
+            "name": "Cybertruck Air Filter",
+            "price": "$90",
+            "images": [
+              "/shopPics/airFilterFront",
+              "/shopPics/airFilterBack"
+            ],
+            "category": "Parts",
+            "description": "Premium air filter for optimal engine performance.",
+            "inStock": true
+          },
+          {
+            "id": 5,
+            "name": "Heavy-Duty Tow Hitch",
+            "price": "$500",
+            "images": [
+              "/shopPics/towHitchFront",
+              "/shopPics/towHitchBack"
+            ],
+            "category": "Parts",
+            "description": "Strong tow hitch for heavy-duty towing needs.",
+            "inStock": false
+          },
+          {
+            "id": 6,
+            "name": "Cybertruck Battery Pack",
+            "price": "$9500",
+            "images": [
+              "/shopPics/batteryPackFront",
+              "/shopPics/batteryPackBack"
+            ],
+            "category": "Parts",
+            "description": "High-capacity battery pack for extended driving range.",
+            "inStock": true
+          },
+          {
+            "id": 7,
+            "name": "Regenerative Braking Module",
+            "price": "$400",
+            "images": [
+              "/shopPics/brakingModuleFront",
+              "/shopPics/brakingModuleBack"
+            ],
+            "category": "Parts",
+            "description": "Advanced module for efficient regenerative braking.",
+            "inStock": true
+          },
+          {
+            "id": 8,
+            "name": "Cybertruck Door Handle Kit",
+            "price": "$300",
+            "images": [
+              "/shopPics/doorHandleFront",
+              "/shopPics/doorHandleBack"
+            ],
+            "category": "Parts",
+            "description": "Sleek, durable door handles with a modern design.",
+            "inStock": true
+          },
+          {
+            "id": 9,
+            "name": "Performance Exhaust System",
+            "price": "$1200",
+            "images": [
+              "/shopPics/exhaustFront",
+              "/shopPics/exhaustBack"
+            ],
+            "category": "Parts",
+            "description": "Stainless steel exhaust system for improved performance.",
+            "inStock": true
+          },
+          {
+            "id": 10,
+            "name": "Cybertruck Mirror Assembly",
+            "price": "$450",
+            "images": [
+              "/shopPics/mirrorFront",
+              "/shopPics/mirrorBack"
+            ],
+            "category": "Parts",
+            "description": "High-visibility mirrors with integrated turn signals.",
+            "inStock": true
+          }
+        ],
+
+      "wheels_and_tires": [
+          {
+            "id": 1,
+            "name": "Off-Road All-Terrain Tires",
+            "price": "$1800",
+            "images": [
+              "/shopPics/allTerrainTireFront",
+              "/shopPics/allTerrainTireBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "Rugged all-terrain tires for extreme conditions.",
+            "inStock": true
+          },
+          {
+            "id": 2,
+            "name": "Cybertruck Alloy Wheels",
+            "price": "$2500",
+            "images": [
+              "/shopPics/alloyWheelFront",
+              "/shopPics/alloyWheelBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "Lightweight and stylish alloy wheels for enhanced performance.",
+            "inStock": true
+          },
+          {
+            "id": 3,
+            "name": "Winter Snow Tires",
+            "price": "$1900",
+            "images": [
+              "/shopPics/snowTireFront",
+              "/shopPics/snowTireBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "Specialized winter tires for maximum traction on snow and ice.",
+            "inStock": true
+          },
+          {
+            "id": 4,
+            "name": "Performance Sport Tires",
+            "price": "$2100",
+            "images": [
+              "/shopPics/sportTireFront",
+              "/shopPics/sportTireBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "High-grip tires for superior handling and speed.",
+            "inStock": true
+          },
+          {
+            "id": 5,
+            "name": "Cybertruck Chrome Wheel Set",
+            "price": "$3200",
+            "images": [
+              "/shopPics/chromeWheelFront",
+              "/shopPics/chromeWheelBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "Shiny chrome wheels that add style and elegance.",
+            "inStock": false
+          },
+          {
+            "id": 6,
+            "name": "Run-Flat Tire Kit",
+            "price": "$2400",
+            "images": [
+              "/shopPics/runFlatTireFront",
+              "/shopPics/runFlatTireBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "Run-flat technology allows you to drive even after a puncture.",
+            "inStock": true
+          },
+          {
+            "id": 7,
+            "name": "Cybertruck Wheel Covers",
+            "price": "$450",
+            "images": [
+              "/shopPics/wheelCoverFront",
+              "/shopPics/wheelCoverBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "Protective and stylish wheel covers for your Cybertruck.",
+            "inStock": true
+          },
+          {
+            "id": 8,
+            "name": "Mud-Terrain Tires",
+            "price": "$2000",
+            "images": [
+              "/shopPics/mudTireFront",
+              "/shopPics/mudTireBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "Aggressive tread for deep mud and challenging trails.",
+            "inStock": true
+          },
+          {
+            "id": 9,
+            "name": "Lightweight Forged Wheels",
+            "price": "$4000",
+            "images": [
+              "/shopPics/forgedWheelFront",
+              "/shopPics/forgedWheelBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "Ultra-light forged wheels for improved efficiency.",
+            "inStock": true
+          },
+          {
+            "id": 10,
+            "name": "Cybertruck Tire Repair Kit",
+            "price": "$120",
+            "images": [
+              "/shopPics/tireRepairFront",
+              "/shopPics/tireRepairBack"
+            ],
+            "category": "Wheels and Tires",
+            "description": "Compact repair kit for quick tire fixes on the road.",
+            "inStock": true
+          }
+        ]
+
+    },
+    {
+      "id": "modelS",
+      "name":"Model S",
+      "best_seller": 
+        {
+          "id": 2,
+          "name": "Model S Travel Bag",
+          "category": "best_seller",
+          "description": "High-quality travel bag with Model S branding.",
+          "price": 129.99,
+          "currency": "USD",
+          "img": "/shopPics/modelSShop.avif",
+          "images": [
+            "/images/products/models-bag-front.jpg",
+            "/images/products/models-bag-side.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "interior": [],
+      "exterior": [],
+      "parts": [],
+      "wheels_and_tires": []
+    },
+    {
+      "id": "model3",
+      "name":"Model 3",
+      "best_seller": 
+        {
+          "id": 3,
+          "name": "Model 3 T-Shirt",
+          "category": "best_seller",
+          "description": "Soft cotton t-shirt with Model 3 logo.",
+          "price": 35.0,
+          "currency": "USD",
+          "img": "/shopPics/model3Shop.avif",
+          "images": [
+            "/images/products/model3-shirt-front.jpg",
+            "/images/products/model3-shirt-back.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "interior": [],
+      "exterior": [],
+      "parts": [],
+      "wheels_and_tires": []
+    },
+    {
+      "id": "model_y",
+      "name":"Model Y ",
+      "best_seller": 
+        {
+          "id": 4,
+          "name": "Model Y Key Cover",
+          "category": "best_seller",
+          "description": "Durable key cover for Model Y key fob.",
+          "price": 19.99,
+          "currency": "USD",
+          "img": "/shopPics/modelYShop.avif",
+          "images": [
+            "/images/products/modely-keycover-front.jpg",
+            "/images/products/modely-keycover-back.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "interior": [],
+      "exterior": [],
+      "parts": [],
+      "wheels_and_tires": []
+    },
+    {
+      "id": "model_x",
+      "name":"Model X",
+      "best_seller": 
+        {
+          "id": 5,
+          "name": "Model X Roof Sunshade",
+          "category": "best_seller",
+          "description": "Protective sunshade for Model X panoramic roof.",
+          "price": 59.99,
+          "currency": "USD",
+          "img": "/shopPics/modelXShop.avif",
+          "images": [
+            "/images/products/modelx-sunshade.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "interior": [],
+      "exterior": [],
+      "parts": [],
+      "wheels_and_tires": []
+    },
+
+     {
+      "id": "charging",
+      "name":"Charging",
+      "best_seller": 
+        {
+          "id": 6,  
+          "description": "Protective sunshade for Model X panoramic roof.",
+          "price": 59.99,
+          "currency": "USD",
+          "img": "/shopPics/chargingShop.avif",
+          "images": [
+            "/images/products/modelx-sunshade.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "interior": [],
+      "exterior": [],
+      "parts": [],
+      "wheels_and_tires": []
+    }
+  ],
+
+   "apparel": [  
+    {
+      "id": "men",
+      "name": "Men's Apparel",
+      "img": "/shopPics/menApparel.avif",
+      "best_seller": 
+        {
+          "id": 101,
+          "name": "Men's Classic Hoodie",
+          "category": "best_seller",
+          "description": "Comfortable and stylish men's hoodie.",
+          "price": 59.99,
+          "currency": "USD",
+          "img": "/apparel/men/hoodie1-main.jpg",
+          "images": [
+            "/apparel/men/hoodie1-front.jpg",
+            "/apparel/men/hoodie1-back.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "hats": 
+        {
+          "id": 102,
+          "name": "Men's Baseball Cap",
+          "category": "hats",
+          "description": "Adjustable baseball cap with logo.",
+          "price": 24.99,
+          "currency": "USD",
+          "img": "/apparel/men/hat1-main.jpg",
+          "images": [
+            "/apparel/men/hat1-front.jpg",
+            "/apparel/men/hat1-side.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "tees": 
+        {
+          "id": 103,
+          "name": "Men's Graphic Tee",
+          "category": "tees",
+          "description": "Soft cotton tee with graphic print.",
+          "price": 29.99,
+          "currency": "USD",
+          "img": "/apparel/men/tee1-main.jpg",
+          "images": [
+            "/apparel/men/tee1-front.jpg",
+            "/apparel/men/tee1-back.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "sweatshirts_and_hoodies": 
+        {
+          "id": 104,
+          "name": "Men's Zip-up Hoodie",
+          "category": "sweatshirts_and_hoodies",
+          "description": "Cozy zip-up hoodie for everyday wear.",
+          "price": 69.99,
+          "currency": "USD",
+          "img": "/shopPics/womenApparel.avif",
+          "images": [
+            "/apparel/men/zip-hoodie-front.jpg",
+            "/apparel/men/zip-hoodie-back.jpg"
+          ],
+          "inStock": false
+        }
+      
+    },
+   {
+      "id": "women",
+      "name": "Women's Apparel",
+      "img": "/shopPics/womenApparel.avif",
+      "best_seller": 
+        {
+          "id": 201,
+          "name": "Women's Cozy Sweatshirt",
+          "category": "best_seller",
+          "description": "Soft and warm sweatshirt for women.",
+          "price": 64.99,
+          "currency": "USD",
+          "img": "/apparel/women/sweatshirt1-main.jpg",
+          "images": [
+            "/apparel/women/sweatshirt1-front.jpg",
+            "/apparel/women/sweatshirt1-back.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "hats": 
+        {
+          "id": 202,
+          "name": "Women's Wide Brim Hat",
+          "category": "hats",
+          "description": "Elegant wide brim hat for sun protection.",
+          "price": 39.99,
+          "currency": "USD",
+          "img": "/apparel/women/hat1-main.jpg",
+          "images": [
+            "/apparel/women/hat1-front.jpg",
+            "/apparel/women/hat1-side.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "tees": 
+        {
+          "id": 203,
+          "name": "Women's V-Neck Tee",
+          "category": "tees",
+          "description": "Lightweight v-neck tee with soft fabric.",
+          "price": 27.99,
+          "currency": "USD",
+          "img": "/apparel/women/tee1-main.jpg",
+          "images": [
+            "/apparel/women/tee1-front.jpg",
+            "/apparel/women/tee1-back.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "sweatshirts_and_hoodies": 
+        {
+          "id": 204,
+          "name": "Women's Pullover Hoodie",
+          "category": "sweatshirts_and_hoodies",
+          "description": "Pullover hoodie with front pocket.",
+          "price": 59.99,
+          "currency": "USD",
+          "img": "/apparel/women/hoodie1-main.jpg",
+          "images": [
+            "/apparel/women/hoodie1-front.jpg",
+            "/apparel/women/hoodie1-back.jpg"
+          ],
+          "inStock": true
+        }
+      
+    },
+    {
+      "id": "Kids' Apparel",
+      "name": "Kids' Apparel",
+      "img": "/shopPics/kidsApparel.avif",
+      "best_seller": 
+        {
+          "id": 301,
+          "name": "Kids' Fun T-Shirt",
+          "category": "best_seller",
+          "description": "Colorful and fun t-shirt for kids.",
+          "price": 19.99,
+          "currency": "USD",
+          "img": "/apparel/kids/tee1-main.jpg",
+          "images": [
+            "/apparel/kids/tee1-front.jpg",
+            "/apparel/kids/tee1-back.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "hats": 
+        {
+          "id": 302,
+          "name": "Kids' Baseball Cap",
+          "category": "hats",
+          "description": "Adjustable baseball cap for kids.",
+          "price": 14.99,
+          "currency": "USD",
+          "img": "/apparel/kids/hat1-main.jpg",
+          "images": [
+            "/apparel/kids/hat1-front.jpg",
+            "/apparel/kids/hat1-side.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "tees": 
+        {
+          "id": 303,
+          "name": "Kids' Graphic Tee",
+          "category": "tees",
+          "description": "Soft cotton tee with fun print.",
+          "price": 17.99,
+          "currency": "USD",
+          "img": "/apparel/kids/tee2-main.jpg",
+          "images": [
+            "/apparel/kids/tee2-front.jpg",
+            "/apparel/kids/tee2-back.jpg"
+          ],
+          "inStock": true
+        }
+      ,
+      "sweatshirts_and_hoodies": 
+        {
+          "id": 304,
+          "name": "Kids' Hoodie",
+          "category": "sweatshirts_and_hoodies",
+          "description": "Cozy hoodie for kids.",
+          "price": 29.99,
+          "currency": "USD",
+          "img": "/apparel/kids/hoodie1-main.jpg",
+          "images": [
+            "/apparel/kids/hoodie1-front.jpg",
+            "/apparel/kids/hoodie1-back.jpg"
+          ],
+          "inStock": false
+        }
+      
+    }
+  ],
+  "lifestyle": [
+    {
+      "id": "life1",
+      "name":  "Lifestyle",
+      "img": "/shopPics/lifestyleShop.avif"
+    }
+  ]
+}
+

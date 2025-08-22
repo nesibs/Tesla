@@ -1,0 +1,423 @@
+{
+  "shop": {
+    "header": [
+      {"image": "/headerPics/chargingMenu1.avif", "title": "Charging"},
+      {"image": "/headerPics/shopMenu2.avif", "title": "Apparel"},
+      {"image": "/headerPics/shopMenu3.avif", "title": "Veehicle Accessuar"},
+      {"image": "/headerPics/shopMenu4.avif", "title": "Lifestyle"}
+    ],
+    "accessories": [
+      {
+        "id": 1,
+        "name": "Model S",
+        "categories": {
+          "best_seller": [
+            {
+              "id": 1,
+              "name": "Model S All-Weather Floor Mats",
+              "price": 200,
+              "currency": "USD",
+              "img": "/shopPics/model_s_best_seller.jpg"
+            }
+          ],
+          "interior": [
+            {
+              "id": 1,
+              "name": "Model S Interior LED Upgrade Kit",
+              "price": 150,
+              "currency": "USD",
+              "img": "/shopPics/model_s_interior.jpg"
+            }
+          ],
+          "exterior": [
+            {
+              "id": 1,
+              "name": "Model S Aero Wheel Cap Kit",
+              "price": 50,
+              "currency": "USD",
+              "img": "/shopPics/model_s_exterior.jpg"
+            }
+          ],
+          "parts": [
+            {
+              "id": 1,
+              "name": "Model S Brake Caliper Covers",
+              "price": 300,
+              "currency": "USD",
+              "img": "/shopPics/model_s_parts.jpg"
+            }
+          ],
+          "wheels": [
+            {
+              "id": 1,
+              "name": "Model S 21” Arachnid Wheels",
+              "price": 4500,
+              "currency": "USD",
+              "img": "/shopPics/model_s_wheels.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Model 3",
+        "categories": {
+          "best_seller": [
+            {
+              "id": 1,
+              "name": "Model 3 Roof Rack",
+              "price": 450,
+              "currency": "USD",
+              "img": "/shopPics/model_3_best_seller.jpg"
+            }
+          ],
+          "interior": [
+            {
+              "id": 1,
+              "name": "Model 3 Interior Lighting Kit",
+              "price": 100,
+              "currency": "USD",
+              "img": "/shopPics/model_3_interior.jpg"
+            }
+          ],
+          "exterior": [
+            {
+              "id": 1,
+              "name": "Model 3 Chrome Delete Kit",
+              "price": 120,
+              "currency": "USD",
+              "img": "/shopPics/model_3_exterior.jpg"
+            }
+          ],
+          "parts": [
+            {
+              "id": 1,
+              "name": "Model 3 Cabin Air Filter",
+              "price": 40,
+              "currency": "USD",
+              "img": "/shopPics/model_3_parts.jpg"
+            }
+          ],
+          "wheels": [
+            {
+              "id": 1,
+              "name": "Model 3 19” Sport Wheels",
+              "price": 2000,
+              "currency": "USD",
+              "img": "/shopPics/model_3_wheels.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "Model X",
+        "categories": {
+          "best_seller": [
+            {
+              "id": 1,
+              "name": "Model X Sunshade",
+              "price": 180,
+              "currency": "USD",
+              "img": "/shopPics/model_x_best_seller.jpg"
+            }
+          ],
+          "interior": [
+            {
+              "id": 1,
+              "name": "Model X Premium Seat Covers",
+              "price": 350,
+              "currency": "USD",
+              "img": "/shopPics/model_x_interior.jpg"
+            }
+          ],
+          "exterior": [
+            {
+              "id": 1,
+              "name": "Model X Mud Flaps",
+              "price": 90,
+              "currency": "USD",
+              "img": "/shopPics/model_x_exterior.jpg"
+            }
+          ],
+          "parts": [
+            {
+              "id": 1,
+              "name": "Model X HEPA Air Filter",
+              "price": 200,
+              "currency": "USD",
+              "img": "/shopPics/model_x_parts.jpg"
+            }
+          ],
+          "wheels": [
+            {
+              "id": 1,
+              "name": "Model X 22” Turbine Wheels",
+              "price": 5200,
+              "currency": "USD",
+              "img": "/shopPics/model_x_wheels.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "Model Y",
+        "categories": {
+          "best_seller": [
+            {
+              "id": 1,
+              "name": "Model Y Roof Sunshade",
+              "price": 160,
+              "currency": "USD",
+              "img": "/shopPics/model_y_best_seller.jpg"
+            }
+          ],
+          "interior": [
+            {
+              "id": 1,
+              "name": "Model Y Rear Seat Covers",
+              "price": 220,
+              "currency": "USD",
+              "img": "/shopPics/model_y_interior.jpg"
+            }
+          ],
+          "exterior": [
+            {
+              "id": 1,
+              "name": "Model Y Door Sill Protectors",
+              "price": 80,
+              "currency": "USD",
+              "img": "/shopPics/model_y_exterior.jpg"
+            }
+          ],
+          "parts": [
+            {
+              "id": 1,
+              "name": "Model Y Cabin Air Filter",
+              "price": 40,
+              "currency": "USD",
+              "img": "/shopPics/model_y_parts.jpg"
+            }
+          ],
+          "wheels": [
+            {
+              "id": 1,
+              "name": "Model Y 20” Induction Wheels",
+              "price": 2500,
+              "currency": "USD",
+              "img": "/shopPics/model_y_wheels.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "Cybertruck",
+        "categories": {
+          "best_seller": [
+            {
+              "id": 1,
+              "name": "Cybertruck Crossbars",
+              "price": 800,
+              "currency": "USD",
+              "img": "/shopPics/cybertruck_best_seller.jpg"
+            }
+          ],
+          "interior": [
+            {
+              "id": 1,
+              "name": "Cybertruck Seat Covers",
+              "price": 300,
+              "currency": "USD",
+              "img": "/shopPics/cybertruck_interior.jpg"
+            }
+          ],
+          "exterior": [
+            {
+              "id": 1,
+              "name": "Cybertruck Exterior Wrap",
+              "price": 2000,
+              "currency": "USD",
+              "img": "/shopPics/cybertruck_exterior.jpg"
+            }
+          ],
+          "parts": [
+            {
+              "id": 1,
+              "name": "Cybertruck Spare Tire Kit",
+              "price": 700,
+              "currency": "USD",
+              "img": "/shopPics/cybertruck_parts.jpg"
+            }
+          ],
+          "wheels": [
+            {
+              "id": 1,
+              "name": "Cybertruck Off-Road Wheels",
+              "price": 3500,
+              "currency": "USD",
+              "img": "/shopPics/cybertruck_wheels.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "apparel": {
+      "men": {
+        "hats": [
+          {
+            "id": 1,
+            "name": "Men’s Logo Cap",
+            "price": 30,
+            "currency": "USD",
+            "img": "/shopPics/men_hat.jpg"
+          }
+        ],
+        "tees": [
+          {
+            "id": 1,
+            "name": "Men’s Graphic Tee",
+            "price": 35,
+            "currency": "USD",
+            "img": "/shopPics/men_tee.jpg"
+          }
+        ],
+        "sweatshirts": [
+          {
+            "id": 1,
+            "name": "Men’s Pullover Hoodie",
+            "price": 60,
+            "currency": "USD",
+            "img": "/shopPics/men_sweatshirt.jpg"
+          }
+        ]
+      },
+      "women": {
+        "hats": [
+          {
+            "id": 1,
+            "name": "Women’s Logo Cap",
+            "price": 30,
+            "currency": "USD",
+            "img": "/shopPics/women_hat.jpg"
+          }
+        ],
+        "tees": [
+          {
+            "id": 1,
+            "name": "Women’s Graphic Tee",
+            "price": 35,
+            "currency": "USD",
+            "img": "/shopPics/women_tee.jpg"
+          }
+        ],
+        "sweatshirts": [
+          {
+            "id": 1,
+            "name": "Women’s Pullover Hoodie",
+            "price": 60,
+            "currency": "USD",
+            "img": "/shopPics/women_sweatshirt.jpg"
+          }
+        ]
+      },
+      "kids": {
+        "hats": [
+          {
+            "id": 1,
+            "name": "Kids’ Logo Cap",
+            "price": 20,
+            "currency": "USD",
+            "img": "/shopPics/kids_hat.jpg"
+          }
+        ],
+        "tees": [
+          {
+            "id": 1,
+            "name": "Kids’ Graphic Tee",
+            "price": 25,
+            "currency": "USD",
+            "img": "/shopPics/kids_tee.jpg"
+          }
+        ],
+        "sweatshirts": [
+          {
+            "id": 1,
+            "name": "Kids’ Hoodie",
+            "price": 40,
+            "currency": "USD",
+            "img": "/shopPics/kids_sweatshirt.jpg"
+          }
+        ]
+      }
+    },
+    "charging": {
+      "chargers": [
+        {
+          "id": 1,
+          "name": "Wall Connector",
+          "price": 475,
+          "currency": "USD",
+          "img": "/shopPics/charger_wall_connector.jpg"
+        }
+      ],
+      "adapters": [
+        {
+          "id": 1,
+          "name": "J1772 Charging Adapter",
+          "price": 50,
+          "currency": "USD",
+          "img": "/shopPics/charging_adapter.jpg"
+        }
+      ],
+      "parts": [
+        {
+          "id": 1,
+          "name": "Wall Connector Pedestal",
+          "price": 425,
+          "currency": "USD",
+          "img": "/shopPics/charging_parts.jpg"
+        }
+      ]
+    },
+    "lifestyle": {
+      "best_seller": [
+        {
+          "id": 1,
+          "name": "Tesla Thermal Mug",
+          "price": 35,
+          "currency": "USD",
+          "img": "/shopPics/lifestyle_best_seller.jpg"
+        }
+      ],
+      "drinkware": [
+        {
+          "id": 1,
+          "name": "Insulated Water Bottle",
+          "price": 30,
+          "currency": "USD",
+          "img": "/shopPics/lifestyle_drinkware.jpg"
+        }
+      ],
+      "bags": [
+        {
+          "id": 1,
+          "name": "Tesla Backpack",
+          "price": 80,
+          "currency": "USD",
+          "img": "/shopPics/lifestyle_bags.jpg"
+        }
+      ],
+      "mini_teslas": [
+        {
+          "id": 1,
+          "name": "Tesla Model S for Kids",
+          "price": 600,
+          "currency": "USD",
+          "img": "/shopPics/lifestyle_mini_tesla.jpg"
+        }
+      ]
+    }
+  }
+}
