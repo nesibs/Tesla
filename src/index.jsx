@@ -12,8 +12,7 @@ import SignUp from "./components/SignUp.jsx";
 import Cart from "./components/Cart.jsx";
 import ProductDetails from "./components/ProductDetails.jsx";
 import Inventory from "./components/Inventory.jsx";
-import AdminPanel from "./components/AdminPanel";
-import Login from "./components/login.jsx";
+import AdminPanel from "./components/AdminPanel"; 
  
 
 const router = createBrowserRouter([
