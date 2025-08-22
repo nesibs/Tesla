@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { Autoplay, EffectFade, Pagination, Navigation } from "swiper/modules";
 import { Swiper } from "swiper/react";
 import { SwiperSlide } from "swiper/react"; 
-import ShopAccesuareTab from "./shopAccesuareTab";
-import ShopHeader from "./shopHeader"; 
+import ShopAccesuareTab from "./ShopAccesuareTab";
+import ShopHeader from "./ShopHeader"; 
 const Shop = () => {
   const [isAutoplay, setIsAutoplay] = useState(true);
   const [isNavigation, setIsNavigation] = useState(false);
