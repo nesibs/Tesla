@@ -4,9 +4,7 @@ import SliderMain from "./SliderMain";
 import Swiper1 from "./Swiper1";
 import Cards from "./Cards";
 import Swiper2 from "./Swiper2";
-import Footer from "./Footer"; 
-import AdminPanel from "./AdminPanel";
-import Login from "./login";
+import Footer from "./Footer";  
 
 const App = () => { 
 
