@@ -4,8 +4,7 @@ import { getCarsById } from "../service/CarsServices";
 import { useSwipeable } from "react-swipeable";
 import { Globe } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { keyframes } from "framer-motion";
+import "react-toastify/dist/ReactToastify.css"; 
 
 const Order = () => {
   const { id } = useParams();
