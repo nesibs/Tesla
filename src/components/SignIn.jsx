@@ -28,7 +28,7 @@ const SignIn = () => {
         // Email tapıldı → login uğurlu
         localStorage.setItem("user", JSON.stringify(user));
         setStatus("Uğurlu giriş "); 
-        navigate("/profilePage");
+        navigate("../");
       } else {
         setStatus("Email tapılmadı ");
       }

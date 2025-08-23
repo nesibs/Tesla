@@ -70,13 +70,13 @@ const Swiper1 = () => {
               <h2 className="text-3xl font-bold mb-2">{slide.title}</h2>
               <p className="mb-4">{slide.subtitle}</p>
               <div className="  flex justify-center lg:justify-start gap-2 lg:gap-4">
-                <Link to={slide.link1}>
-                  <button className="bg-blue-600  w-[60%]  lg:w-[200px] rounded py-2  text-[13px] font-semibold">
+                <Link className=" w-[60%]  lg:w-[200px]" to={slide.link1}>
+                  <button className="bg-blue-600 w-full   rounded py-2  text-[13px] font-semibold">
                     Order Now
                   </button>
                 </Link>
-               <Link to={slide.link2}>
-                <button className="bg-white text-black w-[60%]  lg:w-[200px]  py-2 rounded text-[13px] font-semibold">
+               <Link className=" w-[60%]  lg:w-[200px]" to={slide.link2}>
+                <button className="bg-white w-full text-black w-[60%]  lg:w-[200px]  py-2 rounded text-[13px] font-semibold">
                   Learn More
                 </button>
                 </Link>
