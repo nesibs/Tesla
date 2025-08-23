@@ -14,7 +14,7 @@ const slides = [
 
 const Swiper2 = () => {
   return (
-     <div className="w-full max-h-lvh  py-8 flex justify-center items-center">
+     <div className="swipper1 w-full max-h-lvh  py-8 flex justify-center items-center">
       <Swiper
         modules={[Pagination]}
         pagination={{
