@@ -124,6 +124,7 @@ export default function ProfilePage( ) {
   const handleSignOut = () => {
     localStorage.removeItem("user");
     localStorage.removeItem("cart");
+    localStorage.removeItem("orders");
     navigate("/signIn");
     window.location.reload();
   };

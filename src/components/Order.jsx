@@ -5,6 +5,7 @@ import { useSwipeable } from "react-swipeable";
 import { Globe } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { keyframes } from "framer-motion";
 
 const Order = () => {
   const { id } = useParams();
@@ -14,6 +15,7 @@ const Order = () => {
   const [selectedColor, setSelectedColor] = useState("grey");
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [includeSavings, setIncludeSavings] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const [fade, setFade] = useState(true);
   const navigate = useNavigate();
@@ -49,6 +51,8 @@ const Order = () => {
       navigate("/profilePage");
     }, 1500);
   };
+
+ 
 
   useEffect(() => {
     setFade(false);
@@ -309,9 +313,84 @@ const Order = () => {
                       {savingsAmount.toLocaleString()} /mo
                     </label>
                     <br />
-                    <button className="border-b-1 mt-2 text-gray-700  hover:text-black hover:border-b-2 transition cursor-pointer">
+                    <button
+                      className="border-b-1 mt-2 text-gray-700 hover:text-black hover:border-b-2 transition cursor-pointer"
+                      onClick={() => setIsModalOpen(true)}
+                    >
                       Edit saving
                     </button>
+
+                    {isModalOpen && (
+                      <div className="fixed inset-0  backdrop-blur-sm bg-black/40 flex justify-center items-center z-50">
+                        <div className="bg-white w-[90%] max-w-lg rounded-2xl shadow-lg p-6 relative animate-fadeIn">
+                          {/* Close button */}
+                          <button
+                            onClick={() => setIsModalOpen(false)}
+                            className="absolute top-3 right-3 text-gray-600 hover:text-black text-xl"
+                          >
+                            ✕
+                          </button>
+
+                          {/* Modal content */}
+                          <h2 className="text-2xl font-bold mb-4">
+                            Your Selection
+                          </h2>
+                          <div className="flex flex-col md:flex-row gap-4">
+                            {/* Car image */}
+                            <div className="flex-1 flex justify-center items-center">
+                              <img
+                                src={getCurrentImages()[0]}
+                                alt={car.name}
+                                className="w-full max-w-[200px] rounded-lg shadow"
+                              />
+                            </div>
+
+                            {/* Car details */}
+                            <div className="flex-1 space-y-2 text-left">
+                              <p>
+                                <strong>Model:</strong> {car.name}
+                              </p>
+                              <p>
+                                <strong>Version:</strong> {selectedVersion}
+                              </p>
+                              <p>
+                                <strong>Color:</strong>{" "}
+                                {
+                                  ballImg.find((c) => c.key === selectedColor)
+                                    ?.title
+                                }
+                              </p>
+                              <p>
+                                <strong>Price:</strong> {getVersionPrice()}
+                              </p>
+                              <p>
+                                <strong>Savings:</strong> $
+                                {savingsAmount.toLocaleString()}
+                              </p>
+                            </div>
+                          </div>
+
+                          {/* Modal footer */}
+                          <div className="mt-6 flex justify-end gap-4">
+                            <button
+                              className="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 transition"
+                              onClick={() => setIsModalOpen(false)}
+                            >
+                              Close
+                            </button>
+                            <button
+                              className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700 transition"
+                              onClick={() => {
+                                handleOrderNow();
+                                setIsModalOpen(false);
+                              }}
+                            >
+                              Confirm Order
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
               )}
@@ -461,7 +540,12 @@ const Order = () => {
               {activeTab === "lease" && "finance" && (
                 <div>
                   <h3 className="text-xl font-semibold">
-                   ${Math.round(Number(getVersionPrice().replace(/[^0-9.-]+/g, "")) / 36 / 1000) * 1000}
+                    $
+                    {Math.round(
+                      Number(getVersionPrice().replace(/[^0-9.-]+/g, "")) /
+                        36 /
+                        1000
+                    ) * 1000}
                   </h3>
                   <button
                     className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"

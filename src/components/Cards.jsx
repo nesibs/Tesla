@@ -130,7 +130,7 @@ const Cards = () => {
         {/* Google Maps Section */}
         <div className="mx-auto container mt-6 md:mt-12 lg:mt-20 mb-5">
           <div>
-            <div className="w-full h-[70vh] rounded-[10px] overflow-hidden shadow-lg">
+            <div className="w-full h-[70vh] rounded-[10px] overflow-hidden shadow-lg mb-5">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2351173.159508729!2d49.127583158019426!3d40.592829777968035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1saz!2saz!4v1755901408964!5m2!1saz!2saz"
                 className="w-full h-full"

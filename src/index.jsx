@@ -73,7 +73,7 @@ const router = createBrowserRouter([
   {
     path: "/profilePage",
     element: <ProfilePage />,
-  },
+  }
 ]);
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
